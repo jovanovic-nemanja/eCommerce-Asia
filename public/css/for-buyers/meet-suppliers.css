@@ -1,0 +1,344 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#overview-h2,
+#overview-h3,
+#overview-p,
+.note,
+.overview-h3,
+.overview-p {
+    font-size: 16px;
+    line-height: 19.2px
+}
+.note {
+    color: #666;
+    text-transform: none;
+    font-weight: 300
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.footer-list {
+    padding-right: 0;
+    padding-top: 20px;
+    width: 20%
+}
+
+@media only screen and (min-device-width: 642px) {
+    .loggg {
+        width: 152px
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) {
+   
+    .loggg {
+        width: 140px
+    }
+}
+.foot-acc-pro-icon {
+    background-position: 40px -793px;
+}
+
+/*.leath-pro-icon{
+    background-position: 34px -595px;
+}*/
+.lug-bag-pro-icon,.leath-pro-icon {
+    background-position: 0 -650px;
+}
+
+.app-tex-icon {
+    background-position: 0 -300px
+}
+
+.soft-com-pro-icon {
+    background-position: 0 -400px
+}
+
+.agri-food-pro-icon {
+    background-position: 5px -250px
+}
+
+.furniture-pro-icon {
+    background-position: 0 -600px
+}
+
+.electrical-pro-icon {
+    background-position: 0 -450px
+}
+
+.health-medi-pro-icon {
+    background-position: 40px -550px
+}
+
+.pack-print-pro-icon {
+    background-position: 0 -793px
+}
+
+.manpower-pro-icon {
+    background-position: 34px -698px
+}
+
+.solor-pro-icon {
+    background-position: 34px -649px;
+}
+
+.machinery-pro-icon {
+    background-position: 0 -700px
+}
+
+.home-light-pro-icon {
+    background-position: 0 -920px
+}
+
+.security-pro-icon {
+    background-position: 33px -749px
+}
+.supplier-h2 {
+    font-size: 32px;
+    text-align: center;
+    padding: 3% 0 35px;
+    width: 100%;
+    display: block;
+}
+
+.logo-table {
+    white-space: normal;
+    line-height: normal;
+    font-weight: 400;
+    font-size: medium;
+    font-variant: normal;
+    font-style: normal;
+    color: -webkit-text;
+    text-align: start;
+    border-collapse: collapse;
+}
+.mt20 {
+    margin-top: 20px;
+}
+.supp-tbody {
+    display: table-row-group;
+    vertical-align: middle;
+    border-color: inherit;
+}
+.supp-row {
+    display: table-row;
+    vertical-align: inherit;
+    border-color: inherit;
+}
+.brandTb-td {
+    height: 145px;
+    border: 1px solid #e6e6e6!important;
+    text-align: center;
+    vertical-align: middle;
+    display: table-cell;
+}
+.top-path {
+    width: 100%;
+    float: left;
+    padding: 22px 0 0 7px;
+    margin: 0;
+    list-style-type: none;
+}
+.top-path-li {
+    list-style: none;
+    display: inline-block;
+    padding-right: 10px;
+    margin: 0;
+}
+.top-path-li-a {
+    cursor: pointer;
+    font-weight: 400;
+    letter-spacing: inherit;
+}
+.payment, .vip-li {
+    letter-spacing: .01em;
+}
+.top-path-li-a:active, .top-path-li-a:hover {
+    color: #255E98;
+}
+.top-path-icon {
+    font-size: 14px;
+    font-weight: 400;
+    color: #333;
+}
+.top-path-li, .top-path-li-a {
+    color: #333;
+    font-size: 13px;
+    overflow: hidden;
+}
+.footer-media>a {
+    float: left
+}
+.serch-inpt {
+    border: 2px solid #19446F;
+    border-radius: 0!important
+}
+
+a:hover {
+    color: #3175af;
+}
+.sub-split {
+    border-top: 1px solid #ddd;
+    list-style: none;
+    padding-top: 5px;
+    line-height: 22px;
+    color: #333;
+    font-weight: 700;
+    white-space: nowrap
+}
+
+.country,.list-title,.purchase,.timer {
+    line-height: 38px
+}
+
+.sub-split:hover {
+    color: #000
+}
+
+.anchor-wrap {
+    width: 198px
+}
+
+caption,td,th {
+    float: none!important
+}
+
+caption,table,tbody,td,tfoot,th,thead,tr {
+    margin: 0;
+    padding: 0;
+    border: 0!important;
+    font: inherit
+}
+#topbar_sha,.topbar_sha {
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
+    /*padding-bottom:20px;*/
+}
+#content,#home_b,#item_sha,.item_sha {
+    background-color: #fff
+}
+
+.form-control {
+    height: 35px
+}.padding_0 {
+    padding: 0
+}
+
+table.table-bordered tbody th,
+table.table-bordered tbody td {
+    border-left-width: 0;
+    border-bottom-width: 0;
+}
+table.table-bordered th:last-child,
+table.table-bordered td:last-child {
+    border-right-width: 0;
+}
+.container{font-family:verdana;}
+.header_img_fix{float: none;
+margin: 0 auto;}
+
+.bazar-top-list {
+    padding-left: 0;
+    width: 100%;
+    margin: 0px;
+}
+.category-bdt{
+    height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+    font-size: 18px;
+    color: #333;
+    /*height: 30px;*/
+}
+.category-bdt > a:hover{
+    color: #FF6A00;
+}
+.bazar-top-list>li {
+    border-color: #fff;
+    border-style: solid;
+    z-index: 2;
+    list-style: none;
+    background: #fff;
+    padding: 0;
+    border: 0;
+    margin: 0;
+    border-bottom: 1px solid transparent;
+    border-top: 1px solid transparent;
+    /*position: relative;*/
+
+}
+.bazar-top-list li a {
+    color: #666;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+   /* padding: 3px 0 3px;*/
+    width: 85%;
+    background: #fff;
+    /*padding-left: 40px;*/
+    padding-left: 5px;
+    line-height: 30px;
+    text-align: left;
+}
+.show-ct-list{
+    position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+.bazar-top-list>li:hover{
+     border-color: #fff;
+    border-style: solid;
+    z-index: 2;
+    list-style: none;
+    background: #fff;
+    padding: 0;
+    margin: 0;
+    border: 0;
+     border-bottom:1px solid #dedede;
+     border-top:1px solid #dedede;
+
+}
+.bazar-top-list>li:hover >.bazar-top-list>li a .fa-angle-right{
+    color: #255E98 !important;
+}
+.child-ct-list{
+    position: absolute;
+    left: 300px; 
+    background: #fff;
+    height: 760px;
+    top: -1px;
+    border:1px solid #ddd;
+    display: none;
+    width: 800px;
+    transition: all 1s;
+}
+
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+.category-bdt:hover {
+    border: 1px solid #ddd !important;
+    border-bottom: 1px solid transparent !important;
+}

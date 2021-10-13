@@ -1,0 +1,57 @@
+[18-Aug-2021 07:18:56 UTC] PHP Warning:  Uncaught ErrorException: require(/home/buyerco/public_html/routes/web.php): failed to open stream: No such file or directory in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:417
+Stack trace:
+#0 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/b...', '/home/buyerco/p...', 417, Array)
+#1 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): require()
+#2 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes('/home/buyerco/p...')
+#3 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, '/home/buyerco/p...')
+#4 /home/buyerco/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/buyerco/p...')
+#5 /home/buyerco/publ in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:18:56 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/buyerco/public_html/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:19:00 UTC] PHP Warning:  Uncaught ErrorException: require(/home/buyerco/public_html/routes/web.php): failed to open stream: No such file or directory in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:417
+Stack trace:
+#0 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/b...', '/home/buyerco/p...', 417, Array)
+#1 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): require()
+#2 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes('/home/buyerco/p...')
+#3 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, '/home/buyerco/p...')
+#4 /home/buyerco/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/buyerco/p...')
+#5 /home/buyerco/publ in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:19:00 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/buyerco/public_html/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:19:03 UTC] PHP Warning:  Uncaught ErrorException: require(/home/buyerco/public_html/routes/web.php): failed to open stream: No such file or directory in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:417
+Stack trace:
+#0 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/b...', '/home/buyerco/p...', 417, Array)
+#1 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): require()
+#2 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes('/home/buyerco/p...')
+#3 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, '/home/buyerco/p...')
+#4 /home/buyerco/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/buyerco/p...')
+#5 /home/buyerco/publ in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:19:03 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/buyerco/public_html/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:19:07 UTC] PHP Warning:  Uncaught ErrorException: require(/home/buyerco/public_html/routes/web.php): failed to open stream: No such file or directory in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:417
+Stack trace:
+#0 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/b...', '/home/buyerco/p...', 417, Array)
+#1 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): require()
+#2 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes('/home/buyerco/p...')
+#3 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, '/home/buyerco/p...')
+#4 /home/buyerco/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/buyerco/p...')
+#5 /home/buyerco/publ in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:19:07 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/buyerco/public_html/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:19:10 UTC] PHP Warning:  Uncaught ErrorException: require(/home/buyerco/public_html/routes/web.php): failed to open stream: No such file or directory in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php:417
+Stack trace:
+#0 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): Illuminate\Foundation\Bootstrap\HandleExceptions->handleError(2, 'require(/home/b...', '/home/buyerco/p...', 417, Array)
+#1 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(417): require()
+#2 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php(373): Illuminate\Routing\Router->loadRoutes('/home/buyerco/p...')
+#3 /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/RouteRegistrar.php(121): Illuminate\Routing\Router->group(Array, '/home/buyerco/p...')
+#4 /home/buyerco/public_html/app/Providers/RouteServiceProvider.php(56): Illuminate\Routing\RouteRegistrar->group('/home/buyerco/p...')
+#5 /home/buyerco/publ in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 07:19:10 UTC] PHP Fatal error:  Illuminate\Routing\Router::loadRoutes(): Failed opening required '/home/buyerco/public_html/routes/web.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Routing/Router.php on line 417
+[18-Aug-2021 13:45:32 UTC] PHP Fatal error:  Uncaught Error: Undefined constant 'CRYPTO_AEAD_XCHACHA20POLY1305_IETF_KEYBYTES' in /home/buyerco/public_html/vendor/paragonie/sodium_compat/lib/constants.php:22
+Stack trace:
+#0 /home/buyerco/public_html/vendor/paragonie/sodium_compat/lib/sodium_compat.php(825): require_once()
+#1 /home/buyerco/public_html/vendor/paragonie/sodium_compat/autoload.php(51): require_once('/home/buyerco/p...')
+#2 /home/buyerco/public_html/vendor/composer/autoload_real.php(71): require('/home/buyerco/p...')
+#3 /home/buyerco/public_html/vendor/composer/autoload_real.php(61): composerRequire1ed05ed69c060222623ba6daf2535aa4('3109cb1a231dcd0...', '/home/buyerco/p...')
+#4 /home/buyerco/public_html/vendor/autoload.php(7): ComposerAutoloaderInit1ed05ed69c060222623ba6daf2535aa4::getLoader()
+#5 /home/buyerco/public_html/public/index.php(24): require('/home/buyerco/p...')
+#6 {main}
+  thrown in /home/buyerco/public_html/vendor/paragonie/sodium_compat/lib/constants.php on line 22
+[30-Aug-2021 08:41:04 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes) in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 330
+[30-Aug-2021 08:41:58 UTC] PHP Fatal error:  Allowed memory size of 536870912 bytes exhausted (tried to allocate 16384 bytes) in /home/buyerco/public_html/vendor/laravel/framework/src/Illuminate/Database/Connection.php on line 330

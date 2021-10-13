@@ -1,0 +1,631 @@
+@extends('fontend.master_dynamic')
+	@section('content')
+  <br>
+  <div class="row">
+    <div class="col-md-12 padding_0" style="padding-bottom: 1%">
+      <ul style="float:left;margin-left: -2%" itemscope itemtype="http://schema.org/BreadcrumbList">
+      <li style="float: left" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item"  href="{{ URL::to('/') }}" style="color: #000"> Home &nbsp;</a></li>
+      <li style="float: left" itemprop="itemListElement" itemscope itemtype="http://schema.org/ListItem"><a itemprop="item"  href="" style="color: #000"> <i class="fa fa-angle-right"></i> <strong>{{ preg_replace('/[^A-Za-z0-9\., -]/',' ',$header->name)}}</strong> <i class="fa fa-angle-right"></i></a></li></ul>
+      <ul style="float:right;margin-left: -2%" itemscope itemtype="http://schema.org/BreadcrumbList">
+        <button class="goBack" onclick="goBack()"><span>Go Back</span></button>
+      </ul>
+    </div>
+  </div>	
+  <div class="row item_sha" style="padding-top:2%; padding-bottom:2%">
+				 <div  style="" class="col-xs-3">
+					        <div style="height:auto" class="col-xs-12 mobo-categories hr-gap no-padding">
+		      @if($header)
+            <h3><a itemprop="url"   href="#"><i class="fa fa-list-ul"></i><span itemprop="name" style="font-size:15px;color: #255E98;">  {{ preg_replace('/[^A-Za-z0-9\., -]/',' ',$header->name) }}</span></a></h3>
+            
+        
+                       
+            <ul  itemscope itemtype="http://data-vocabulary.org/Product"  class="pull-left bazar-list" style="">
+            	
+            @foreach($header->sub_cat as $data)
+                
+                <li>               	
+                     <a itemprop="url"   rel="category"  style="padding: 5px 0px 5px;" href="{{URL::to(strtolower(preg_replace('/[^A-Za-z0-9\.-]/','',preg_replace('/[^A-Za-z0-9\.,&-]/','-',$data['name']))).'-products/0',$data['id']) }}"><span itemprop="name" style="font-size:13px; color:#666;padding:0px;text-align: left;">
+                                <?php echo $data[ 'name']; ?>
+                           </span> </a>
+                   
+                   <!--  <span style="padding: 5px 15px 5px 0;" class="pull-right"><i class="fa fa-angle-right"></i></span> -->
+                </li>
+            @endforeach
+
+               <li class="more" style="padding-left: 1.3%;;padding-right: 8%;padding-top: 0%;font-weight: 600;">
+                	
+                	
+                     <a itemprop="url"   rel="category"  class="more" href="{{URL::to('Marketplace',null) }}">
+                                All Categories
+                            </a>
+                   
+                   <!--  <span class="pull-right"><i class="fa fa-angle-right"></i></span> -->
+                </li>                              
+            </ul>
+             @endif
+        
+        
+            
+
+        </div>
+        
+
+
+					</div>
+
+
+	<div class="col-xs-9 " style="padding:0;">
+		<div class="row" style="padding:0; margin: 0">
+			<div class="col-xs-4 ss-con" style="padding:0;overflow: hidden;">
+				    <img title="{{ $title }}" itemprop="image" style="min-height:565px;width:100%;padding-left:0;padding: 0;" src="{{ URL::to('uploads',$header->cat_name->single_image) }}" alt="{{ $title }}" />
+            <div class="btdc-main-name"><a href="#"> Fresh best vegatable</a></div>
+			</div>
+			<div class="col-xs-8" style="padding:0; border-bottom: 1px solid #ddd; border-top: 1px solid #dae2ed;padding: 0;">
+				<div class="row" style="padding:0;margin: 0; margin-bottom: -1px;">
+        <div  class="col-xs-6 visit-product" style="background-color:#fff; border-top: none;border-bottom: 1px solid #dae2ed;padding: 0;">
+        <div class="ss-card-in">
+          <div class="ss-in1">
+            <h1>Item name</h1>
+          </div>
+          <div class="ss-in2">
+            <p style="margin: 10px; font-size: 12px">Some text</p>
+            <p style="position: absolute;width:100%;bottom: 0;background: #1a4570; font-size: 12px; text-align: center;padding: 3px;color: white; margin: 0">Some text</p>
+          </div>
+        </div>
+              <img style="transition: all .3s ease" src="{{asset('resources/assets/images/home/Bamboo-Furniture.jpg')}}">
+        </div>
+         <div  class="col-xs-6 visit-product" style="background-color:#fff; border-top: none;border-bottom: 1px solid #dae2ed;padding: 0;">
+           <div class="ss-card-in">
+            <div class="ss-in1">
+              <h1>Item name</h1>
+            </div>
+            <div class="ss-in2">
+              <p style="margin: 10px; font-size: 12px">Some text</p>
+              <p style="position: absolute;width:100%;bottom: 0;background: #1a4570; font-size: 12px; text-align: center;padding: 3px;color: white; margin: 0">Some text</p>
+            </div>
+          </div>
+              <img style="transition: all .3s ease" src="{{asset('resources/assets/images/home/Children-Furniture.jpg')}}">
+        </div>
+         <div  class="col-xs-6 visit-product" style="background-color:#fff; border-top: none;border-bottom: 1px solid #dae2ed;padding: 0;">
+         <div class="ss-card-in">
+            <div class="ss-in1">
+              <h1>Item name</h1>
+            </div>
+            <div class="ss-in2">
+              <p style="margin: 10px; font-size: 12px">Some text</p>
+              <p style="position: absolute;width:100%;bottom: 0;background: #1a4570; font-size: 12px; text-align: center;padding: 3px;color: white; margin: 0">Some text</p>
+            </div>
+          </div>
+              <img style="transition: all .3s ease" src="{{asset('resources/assets/images/home/Home-Furniture.jpg')}}">
+        </div>
+         <div  class="col-xs-6 visit-product" style="background-color:#fff; border-top: none;border-bottom: 1px solid #dae2ed;padding: 0;">
+         <div class="ss-card-in">
+            <div class="ss-in1">
+              <h1>Item name</h1>
+            </div>
+            <div class="ss-in2">
+              <p style="margin: 10px; font-size: 12px">Some text</p>
+              <p style="position: absolute;width:100%;bottom: 0;background: #1a4570; font-size: 12px; text-align: center;padding: 3px;color: white; margin: 0">Some text</p>
+            </div>
+          </div>
+              <img style="transition: all .3s ease" src="{{asset('resources/assets/images/home/Office-Furniture.jpg')}}">
+        </div>
+         <div  class="col-xs-6 visit-product" style="background-color:#fff; border-top: none;border-bottom: 1px solid #dae2ed; padding: 0;">
+         <div class="ss-card-in">
+            <div class="ss-in1">
+              <h1>Item name</h1>
+            </div>
+            <div class="ss-in2">
+              <p style="margin: 10px; font-size: 12px">Some text</p>
+              <p style="position: absolute;width:100%;bottom: 0;background: #1a4570; font-size: 12px; text-align: center;padding: 3px;color: white; margin: 0">Some text</p>
+            </div>
+          </div>
+              <img style="transition: all .3s ease" src="{{asset('resources/assets/images/home/Outdoor-Furniture.jpg')}}">
+        </div>
+         <div  class="col-xs-6 visit-product" style="background-color:#fff; border-top: none;border-bottom: 1px solid #dae2ed;padding: 0;">
+         <div class="ss-card-in">
+            <div class="ss-in1">
+              <h1>Item name</h1>
+            </div>
+            <div class="ss-in2">
+              <p style="margin: 10px; font-size: 12px">Some text</p>
+              <p style="position: absolute;width:100%;bottom: 0;background: #1a4570; font-size: 12px; text-align: center;padding: 3px;color: white; margin: 0">Some text</p>
+            </div>
+          </div>
+              <img style="transition: all .3s ease" src="{{asset('resources/assets/images/home/Wood-Furniture.jpg')}}">
+        </div>
+          <!-- @if($most_views)
+                @foreach($most_views as $data) 
+            			<div  class="col-xs-6 visit-product" style="background-color:#fff; border-top: none;border-bottom: 1px solid #dae2ed;">
+                 
+                   <a itemprop="url" title="{{ $header->name or '' }} | {{ $data->cat_name->name or '' }}"   href="{{URL::to(strtolower(preg_replace('/[^A-Za-z0-9\.-]/','',preg_replace('/[^A-Za-z0-9\.,&-]/','-',$data->cat_name->name))).'-products/0',$data->category_id) }}">
+                  
+            			      <div class="hhh">
+            					    <div class="no-1" style="background-color: #255E98">No.1</div>
+            					        <div class="no-cont">Customer viewed</div>
+            					 
+            					    <div  class="col-xs-6 mmm-title">
+                            @if($data->cat_name)
+            					          <div class="mp-a-tt">{{ $data->cat_name->name or '' }}</div>
+                            @endif
+            					    </div>
+            					    <div  class="m-p-img" style="margin-left: 0px">
+                            @if($data->product_image)
+                              <img itemprop="image"  title="{{ $data->cat_name->name or '' }}" style="height:100px;width:100px" class="img-thumbnail" src="{{ asset('uploads/'.$data->product_image->image) }}" alt="{{ $header->name or '' }} | {{ $data->cat_name->name or '' }}" />
+                            @elseif($data->pro_images_new)
+                              <img itemprop="image" title="{{ $data->parent_cat->name or '' }}" style="height:100px;width:100px" class="img-thumbnail" src="{{ URL::to('bdtdc-product-image/'.trim($data->parent_cats->name).'/'.trim($data->cat_name->name),$data->pro_images_new->image) }}" alt="{{ $header->name or '' }} | {{ $data->cat_name->name or '' }}" />
+                            @endif
+
+                          </div>
+            					    <div class="m-p-view"><div class="m-p-view-h3" style="padding-left: 5%;"><div style="font-size:16px; font-weight:400; padding-bottom:0%;">Visit Now ›</div></div></div>
+            			      </div>
+                     </a> 
+            			</div>
+                @endforeach
+            @endif-->   
+				</div>
+				
+		
+			</div>
+		</div>
+				
+	</div>
+	<br>
+	</div>
+
+{!! csrf_field() !!}
+<div class="row" style="background-color:#fafafa; margin-top:2%">
+        <div class="col-sm-12" style="border-top:0 none;">
+            <ul style="margin-left: -2%" itemscope itemtype="http://schema.org/BreadcrumbList"> <h1 class="" style="font-size: 14px;color:#000">Popular Products of {{ $header->name or '' }}  </h1>
+            </ul>
+        </div>
+        <div class="col-md-12" style="padding:0;">
+            @foreach($products as $p)
+            @if($p->bdtdcProduct)
+            
+                  <div class="col-sm-3 padding_0 " style="">
+                  
+                  
+                       <div class="product-container box" style="height: 425px;">
+                       <div class="con-pro-img"> 
+                       @if($p->bdtdcProduct)
+                              <a itemprop="url"   title="{{ $p->pro_to_cat_name->name or ''}}" target="_blank" href="{{ URL::to('product-details/'.preg_replace('/[^A-Za-z0-9\.-]/','-',$p->bdtdcProduct->product_name->name).'='.mt_rand(100000000, 999999999).$p->product_id) }}">
+                        @endif
+
+
+                              @if($p->pro_images_new && count($p->pro_images_new) > 0)
+
+                                <img   itemprop="image" style="padding: 0;" class="product-bd-img-bdtdc img-reponsive" src="
+                                {{ asset('bdtdc-product-image/'.trim($p->pro_parent_cat->name).'/'.trim($p->bdtdcCategory->name).'/'.$p->pro_images_new->image) }}
+                                " alt="{{ $p->bdtdcProduct->product_name->name or '' }}">      
+                            @elseif($p->pro_images)
+                                   <img  itemprop="image"  style="padding: 0;" class="product-bd-img-bdtdc img-reponsive" src="{{ URL::to('uploads',(isset($p->pro_images)) ? $p->pro_images->image : 'no_image.jpg') }}" alt="{{ $p->bdtdcProduct->product_name->name or '' }}">
+
+                            @endif
+                            </a> 
+                             
+                       </div>
+                       
+                       <div>
+                          <a itemprop="url"   target="_blank" href="{{ URL::to('product-details/'.preg_replace('/[^A-Za-z0-9\.-]/','-',$p->bdtdcProduct->product_name->name).'=232942253'.$p->product_id) }}">
+
+                             <div class="cat-item-title"> {{ $p->bdtdcProduct->product_name->name or '' }} </div>
+                    
+                             </a>
+                        </div>
+                       <div class="dollar-price" style="text-align: center;"><span class="dollar">US $ {{ $p->cat_pro_price->product_FOB or ''}}</span> /
+                       <?php if($p->bdtdcProduct->product_unit){
+                        echo $p->bdtdcProduct->product_unit->name;
+                       }
+
+                       ?>
+                       </div>
+                       <div class="item-views" style="text-align: center;"><span class="online-view"><?php  $rand=rand(20,50); echo $rand;?>+ </span>views 
+                        
+                       </div>
+                        <div class="offer-action">
+                         <a itemprop="url" href="{{ URL::to('product-details/'.preg_replace('/[^A-Za-z0-9\.-]/','-',$p->bdtdcProduct->product_name->name).'='.mt_rand(100000000, 999999999).$p->product_id) }}" class="offer-action-btn contact_supplier"> Contact Supplier</a>
+                        </div>
+                       <!--  <div class="padding_0 get_quote_link" style="margin:0 auto; width:100%;position:relative;background-color: #fff;text-align:center;margin:0;padding-top: 10px;padding-bottom:10px;display:block;position:absolute;    z-index: 3;    background: #fff;"><a itemprop="url" href="{{ URL::to('product-details/'.preg_replace('/[^A-Za-z0-9\.-]/','-',$p->bdtdcProduct->product_name->name).'='.mt_rand(100000000, 999999999).$p->product_id) }}" style="font-size: 14px;padding: 0;" class="btn btn-primary btn-join" > Contact Supplier</a></div> --> 
+                                     
+                                         
+                </div>
+             </div>
+                 @endif  
+
+                
+            @endforeach
+              
+            
+        </div>
+
+<div style="text-align: center">{!! $products->render() !!}</div>
+     
+        
+</div>
+
+<div class="row padding_0">
+                <div class="col-sm-12 col-md-12 padding_0">
+                    <h2 style="margin-top: 3%;text-align: center;color: #000;font-size: 14px" class="country-trade-title">Effective sourcing from selected {{ preg_replace('/[^A-Za-z0-9\., -]/',' ',$header->name) }} Supplier.</h2>
+                </div>
+              
+  </div>
+  <div class="row get-q" style="padding-bottom: 2%">
+                <a itemprop="url" href="{{ URL::to('get-quotations')}}" target="_blank" class="btn btn-primary btn-join" style="height:47px;border-radius:5px;font-size:18px;color:#fff!important;padding-top: 4px; ">Get Quotations Now</a>
+            </div>
+
+ <div class="row padding_0" style="padding-bottom: 2%;text-align: center;font-size: 14px">
+         Do you want to show<strong> {{preg_replace('/[^A-Za-z0-9\., -]/',' ', $header->name) }}</strong> or other products of your own company?        <a itemprop="url" href="http://apps.bditdc.com/get-quotations" target="_blank" class="" style="height:47px;border-radius:5px;font-size:14px;color:#000!important;padding-top: 4px; background-color: "><strong>Display your Products FREE now!</strong></a>
+            </div>
+
+  <div class="row" style="background-color: #ffffff;padding: 2%;margin-bottom: 2%">
+      <div class="col-sm-12" style="padding: 0 0 0 5px;margin: 0 0 30px;font-size: 18px;line-height: 40px;color: #222;font-weight: bold;
+border-bottom: 2px solid #999;">
+      <h5 style="font-size: 16px"><b>Determined channel for genuine Suppliers</b></h5>
+      </div>
+        <hr>
+        <div class="col-sm-12 col-md-12 col-lg-12">
+            <p style="font-size: 14px; text-align: left;font-weight: normal; padding:0; margin: 0;opacity: .7">We work with the world's most famous retailers and brands over broad areas of classified
+
+products such as  @if(isset($cat_name_array))
+      
+
+   
+
+       
+    <strong>{{ $keyword }}  </strong>
+      
+        and <a  rel="category" itemprop="url" href="{{ URL::to('online-marketplace')}}"> many more...</a>
+
+
+      
+
+  
+
+    @else
+    @endif
+    </p>
+     </div>
+       <div class="col-sm-12 col-md-12 col-lg-12">
+            <table style="width:100%;" class="mt20 logo-table">
+                    <tbody class="supp-tbody">
+                            <tr class="supp-row">
+                                <td style="width:25%;" class="brandTb-td"> 
+                                <img title="Each year Kmart supports hundreds of Bangladesh frozen food suppliers and agriculture companies and wholesale food suppliers" itemprop="image" class="" style="max-height: 125px; max-width: 85%;" src="http://bdtdc.com/resources/assets/fontend/bdtdc-images/kmart-tyre-and-auto-service-logo.jpg" alt="Kmart tyre and auto service logo">
+                                </td>
+                                <td style="width:25%;" class="brandTb-td"> 
+                                        <img title="Each year Tesco supports hundreds of Bangladesh frozen food suppliers and agriculture companies and wholesale food suppliers" itemprop="image" class="" style="max-height: 125px; max-width: 85%;" src="http://bdtdc.com/resources/assets/fontend/bdtdc-images/tesco.jpg" alt="Tesco logo">
+                                </td>
+                                <td style="width:25%;" class="brandTb-td"> 
+                                        <img title="Each year Sears supports hundreds of Bangladesh frozen food suppliers and agriculture companies and wholesale food suppliers" itemprop="image" class="" style="max-height: 125px; max-width: 85%;" src="http://bdtdc.com/resources/assets/fontend/bdtdc-images/sears.jpg" alt="Sears logo">
+                                </td>
+                                <td style="width:25%;" class="brandTb-td">
+                                    
+                                    <img title="Each year Target supports hundreds of Bangladesh frozen food suppliers and agriculture companies and wholesale food suppliers" itemprop="image" style=" max-height: 125px; width: 85%;" src="http://bdtdc.com/resources/assets/fontend/bdtdc-images/target.png" alt="Target logo">
+                                </td>
+                            </tr>
+                             <tr class="supp-row">
+                                <td style="width:25%;" class="brandTb-td">
+                                    <img title="Each year TJX supports hundreds of Bangladesh frozen food suppliers and agriculture companies and wholesale food suppliers" itemprop="image" class="" style="max-height: 125px; max-width: 85%;" src="http://bdtdc.com/resources/assets/fontend/bdtdc-images/logo_tjx_companies.gif" alt="The TJX companies logo">
+                                </td>
+                                <td style="width:25%;" class="brandTb-td">
+                                    <img title="Each year Zara supports hundreds of Bangladesh frozen food suppliers and agriculture companies and wholesale food suppliers" itemprop="image" style=" max-height: 125px; max-width: 85%;" src="http://bdtdc.com/resources/assets/fontend/bdtdc-images/zara_logo.jpg" alt="Zara logo">
+                                </td>
+                                <td style="width:25%;" class="brandTb-td">
+                                    <img title="Each year Walmart supports hundreds of Bangladesh frozen food suppliers and agriculture companies and wholesale food suppliers" itemprop="image" class="" style="max-height: 125px; max-width: 85%;" src="http://bdtdc.com/resources/assets/fontend/bdtdc-images/com-logo-picture27.jpg" alt="Walmart logo">
+                                </td>
+                                <td style="width:25%;" class="brandTb-td">
+                                    <img title="Each year Carrefour supports hundreds of Bangladesh frozen food suppliers and agriculture companies and wholesale food suppliers" itemprop="image" class="" style="max-height: 125px; max-width: 85%;" src="http://bdtdc.com/resources/assets/fontend/bdtdc-images/com-logo-picture21.jpg" alt="Carrefour logo">
+                                </td>
+                            </tr>
+                    </tbody>
+            </table>
+           
+       </div>
+    </div>
+
+	 <div id="animatedModal">
+    <div class="close-animatedModal text-center">
+      <a itemprop="url"   class="btn btn-primary btn-md close_portfolio_model" href=""><i class="fa fa-times fa-3x"></i></a>
+    </div>
+    <div class="container">
+      <div class="row">
+        <div style="padding:2%" class="modal-content col-xs-10 col-xs-offset-1">
+          
+        </div>
+      </div>
+  
+    </div>
+  </div>
+	
+	
+	<br>
+@stop
+@section('scripts')
+
+<script type="text/javascript">
+
+//---------------------------------------//
+            
+
+            $(document).ready(function(){
+
+              var visi = $('.visit-product');
+              $(visi[0]).find('img').css('transform','translateX(40px)');
+              $(visi[0]).find('.ss-card-in').css('left','15px');
+
+
+              $('.visit-product').mouseover(function(){
+                 $(this).find('img').css('transform','translateX(40px)');
+                 $(this).find('.ss-card-in').css('left','15px');
+              })
+              $('.visit-product').mouseleave(function(){
+                 $(this).find('img').css('transform','translateX(0)');
+                 $(this).find('.ss-card-in').css('left','-115px');
+              })
+            });
+
+           
+
+
+//---------------------------------------//
+
+
+            $(function() {
+              
+              
+              /*$('.contact_supplier').animatedModal({
+                color: "rgba(102, 102, 100, .9)",
+                animatedIn: "lightSpeedIn",
+              });*/
+              /**
+               * the element
+               */
+              var $ui = $('#ui_element');
+            
+              /**
+               * on focus and on click display the dropdown, 
+               * and change the arrow image
+               */
+              $ui.find('.sb_input').bind('focus click', function() {
+                $ui.find('.sb_down')
+                  .addClass('sb_up')
+                  .removeClass('sb_down')
+                  .andSelf()
+                  .find('.sb_dropdown')
+                  .show();
+              });
+              /**
+               * on mouse leave hide the dropdown, 
+               * and change the arrow image
+               */
+              $ui.bind('mouseleave', function() {
+                $ui.find('.sb_up')
+                  .addClass('sb_down')
+                  .removeClass('sb_up')
+                  .andSelf()
+                  .find('.sb_dropdown')
+                  .hide();
+              });
+              /**
+               * selecting all checkboxes
+               */
+              $ui.find('.sb_dropdown').find('label[for="all"]').prev().bind('click', function() {
+                $(this).parent().siblings().find(':checkbox').attr('checked', this.checked).attr('disabled', this.checked);
+              });
+            
+              $(document).on({
+                click: function(e) {
+                  e.preventDefault();
+                  $('.modal-content').html('<span class="btn btn-block btn-lg"><i class="fa fa-spinner fa-pulse loading_icon text-primary"></i></span>');
+                  // var base_url = $('[name="base_url"]').val();
+                  var base_url = window.location.origin;
+                  var supplier_id = $(this).data('supplier_id');
+                  var product_id = $(this).data('product_id');
+                  var url = base_url + "/byer/contact_supplier/" + supplier_id + "/" + product_id;
+                  //$('.modal-content').html(" ");
+                  // $.get(url, function(r) {
+                  //   $('.modal-content').html(r)
+                  // })
+                  window.location.href = url;
+                }
+              }, '.contact_supplier');
+            
+              /*$(document).on({
+                click: function(e) {
+                  e.preventDefault();
+                  var url = $('[name="base_url"]').val() + '/buyer/contact_supplier';
+                  swal({
+                      title: "Are you sure?",
+                      text: "You are going to confirm adding your product !",
+                      type: "warning",
+                      showCancelButton: true,
+                      confirmButtonColor: "#DD6B55",
+                      timer: 6000,
+                      confirmButtonText: "Yes!",
+                      cancelButtonText: "No, Stay hare!",
+                      closeOnConfirm: false,
+                      closeOnCancel: false,
+                      showLoaderOnConfirm: true
+                    },
+                    function(isConfirm) {
+                      if (isConfirm) {
+                        
+                        $.post(url, $('.query_form').serialize(), function(r) {
+                          (parseInt(r) == 1) ? swal("Thank You!!", "Query has been sent successfully!!!", "success"): false;
+                          (parseInt(r) == 0) ? swal({title: "<h2 class='text-danger'>Please Login<h2>",text: "<p class='text-primary'>Login first to send the query</p>",html: true,type:'error'}) : false;
+                          (parseInt(r) !=1 && parseInt(r) !=0) ? swal("Fail!!", "Query Could Not Sent", "error") : false;
+                        })
+                      }
+                      else {
+                        swal("Cancelled", "Sending request is canceled :)", "error");
+                      }
+                    });
+                }
+              }, '.query_form_submit_btn');*/
+            });
+        </script> 
+
+
+    
+        <script>
+
+$(function(){
+        $(".link").button({
+            icons:{
+            secondary:"ui-icon-carat-1-e"
+            }
+        });
+        $(".next, input:submit").button({
+            icons:{
+            secondary:"ui-icon-circle-arrow-e"
+            }
+        });
+       
+        $("#country").change(function(){ 
+         var value=$("#country").val();
+            var _token = $("input[name='_token']").val();
+                $("#product_view").show();
+                $.ajax({
+            type: "POST",
+            url: "{{ URL::to('country/products',null) }}",
+            data: "country="+this.value+"&option=product_view&_token="+_token,
+            success:function(result){
+            $("#product_view").html(result);
+            $("#product_view").focus();
+            }})
+            
+            
+        
+             if(value=="examRoutine"){
+                $("#eRoutine").show();
+                $.ajax({
+            type: "POST",
+            url: "{{ URL::to('category/products',null) }}",
+            data: "type="+this.value+"&option=eRoutine&_token="+_token,
+            success:function(result){
+            $("#eRoutine").html(result);
+            $("#eRoutine").focus();
+            }})
+
+            }
+            else  { 
+                $("#eRoutine").hide();
+                 }
+           
+        });
+
+   
+
+    });
+</script>
+<script>
+function goBack() {
+    window.history.back();
+}
+</script>
+<script type="text/javascript">
+  $('input[name="key"]').val($('input[name="search_key"]').val());
+  function search_data(){
+    var categoryid = $('input[name="categoryid"]').val();
+        var country = $('input[name="country"]').val();
+        var key = $('input[name="search_key"]').val();
+        var order = $('input[name="order"]').val();
+        var url = window.location.origin+'/Sourcing/Requests/info/category=='+categoryid+'+..+country=='+country+'+..+key=='+key+'+..+order=='+order;
+        window.location.href = url;
+  }
+
+  $(document).on({
+    change:function(e){
+      e.preventDefault();
+      $(".replace_area").html('<div style="text-align:center;margin-top:50px;margin-bottom:50px;"><img src="http://www.bdtdc.com/resources/assets/images/circle_preloader.gif" alt="Loading..." /></div>');
+      $('input[name="country"]').val($(this).val());
+      search_data();
+
+      /*var href = window.location.href;
+            var cat_id = $('#active_category_id').val();
+            var base_url = window.location.origin;
+            var url = base_url+'/Sourcing/Requests_search/'+cat_id+'/'+$(this).val();
+            // alert (url);
+            $.get(url,{},function(result){
+              // alert (result);
+              if(result == ''){
+                        $(".replace_area").html('<p style="font-size:25px;color:green;margin-left: 43px;margin-top: 14px;">No Product to show...</p>');
+                    }else{
+                        $(".replace_area").html(result);
+                    }
+            });*/
+    }
+  },'[name="countery"]');
+
+  $(document).on({
+    click:function(e){
+      e.preventDefault();
+      $(".replace_area").html('<div style="text-align:center;margin-top:50px;margin-bottom:50px;"><img src="http://www.bdtdc.com/resources/assets/images/circle_preloader.gif" alt="Loading..." /></div>');
+      var cat_id = $(this).attr('data-catid');
+      $('input[name="categoryid"]').val(cat_id);
+      search_data();
+
+      /*$('.cat_menu').parent().css('background-color','');
+      $('.cat_menu').parent().css('padding-left','');
+      $('.cat_menu').parent().css('border-radius','');
+      $('.cat_menu').css('color','#666');
+      $(this).parent().css('background-color','#1A4570');
+      $(this).parent().css('padding-left','14px');
+      $(this).parent().css('border-radius','11px !important');
+      $(this).css('color','white');
+      var cat_id = $(this).attr('catid');
+      $('#active_category_id').val(cat_id);
+      var country_id = $('[name="countery"]').val();
+            var base_url = window.location.origin;
+            var url = base_url+'/Sourcing/Requests_search/'+cat_id+'/'+country_id;
+            // alert (url);
+            $.get(url,{},function(result){
+              if(result == ''){
+                        $(".replace_area").html('<p style="font-size:25px;color:green;margin-left: 43px;margin-top: 14px;">No Product to show...</p>');
+                    }else{
+                        $(".replace_area").html(result);
+                    }
+            });*/
+    }
+  },'.cat_menu');
+  $('.order_submit').click(function(e){
+    e.preventDefault();
+    $(".replace_area").html('<div style="text-align:center;margin-top:50px;margin-bottom:50px;"><img src="http://www.bdtdc.com/resources/assets/images/circle_preloader.gif" alt="Loading..." /></div>');
+    $('input[name="order"]').val($('input[name="p-price"]').val());
+    search_data();
+  });
+  $('input[name="p-price"]').keyup(function(event){
+      if(event.keyCode == 13){
+          $('.order_submit').click();
+      }
+  });
+  $('[name="search"]').val('news');
+  var cid = $('input[name="categoryid"]').val();
+  $('[data-catid="'+cid+'"]').parent().css('background-color','#1A4570');
+  $('[data-catid="'+cid+'"]').parent().css('padding-left','14px');
+  $('[data-catid="'+cid+'"]').parent().css('border-radius','11px !important');
+  $('[data-catid="'+cid+'"]').css('color','white');
+
+  $('ul.pagination').css('margin-top','10px');
+  $('ul.pagination').css('margin-right','25px');
+
+  $(document).on({
+    mouseover:function(e){
+      $('.get_quote_link').hide();
+      $(this).children().children('.get_quote_link').show();
+    }
+  },'.product-hover');
+  $(document).on({
+    mouseout:function(e){
+      $('.get_quote_link').hide();
+    }
+  },'.product-hover');
+
+  $(document).ready(function(){
+    $('.pagination').css('float', 'none');
+  });
+
+</script>
+
+@stop

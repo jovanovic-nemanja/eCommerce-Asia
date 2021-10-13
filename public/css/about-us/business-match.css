@@ -1,0 +1,112 @@
+.vip-text-span {
+    display: block;
+    width: 100%;
+    height: 25px;
+    padding-left: 40px;
+    margin-top: 15px;
+    margin-bottom: 15px;
+    line-height: 25px;
+    background: url(../../assets/fontend/bdtdc-images/vip.png) no-repeat;
+}
+.vip-li {
+    /*padding: 17px 0 30px;*/
+    width: 86%;
+    /*line-height: 20px;*/
+    /*text-align: left;*/
+    /*overflow: hidden;*/
+    word-wrap: break-word;
+}
+.vip-li-list {
+    list-style: outside;
+    font-size: 13.5px;
+    line-height: 22px;
+    padding: 8px 0;
+    text-align: left;
+}
+.ldd-bgcolor3 {
+    position: absolute;
+    height: 28px;
+    width: 130px;
+    z-index: 99;
+    top: 87%;
+    left: 2.6%;
+    color: #fff;
+    font-weight: 700;
+    line-height: 28px;
+    padding-left: 10px;
+    filter: alpha(opacity=90);
+    -moz-opacity: .9;
+    -khtml-opacity: .9;
+    opacity: .9;
+    background-color: #4ea83f;
+}
+.ldd-bgcolor1, .ldd-bgcolor2 {
+    max-width: 154px;
+    padding-left: 10px;
+    -moz-opacity: .9;
+    position: absolute;
+    height: 28px;
+    z-index: 99;
+    color: #fff;
+    filter: alpha(opacity=90);
+    -khtml-opacity: .9;
+    font-size: 14px;
+    font-weight: 700;
+}
+.ldd-bgcolor2 {
+    top: 35%;
+    right: 8.6%;
+    opacity: .9;
+}
+.ldd-bgcolor1 {
+    top: 53%;
+    right: 6.6%;
+    opacity: .9;
+}
+.ldd-bgcolor0 {
+    position: absolute;
+    height: 28px;
+    max-width: 157px;
+    z-index: 99;
+    top: 74%;
+    right: 5.8%;
+    color: #fff;
+    font-size: 14px;
+    font-weight: 700;
+    filter: alpha(opacity=90);
+    -moz-opacity: .9;
+    -khtml-opacity: .9;
+    opacity: .9;
+}
+.source-text-span {
+    display: block;
+    width: 100%;
+    height: 60px;
+    line-height: 25px;
+    text-align: center;
+    color: #999;
+}
+.source-icon-pic{
+    display: block;
+    width: 40px;
+    height: 40px;
+    margin: 15px auto 10px;
+   
+}
+.flg-circle{
+    width: 30px;
+    border-radius: 50% !important;
+    height: 30px;
+}
+.source-icon-pic1{
+ background: url(../../assets/fontend/aboutus-images/REGISTERING.png) no-repeat;
+}
+.source-icon-pic2{
+ background: url(../../assets/fontend/aboutus-images/SOURCING.png) no-repeat;
+}
+.source-icon-pic3{
+ /*background: url(../..assets/fontend/aboutus-images/MATCHING.png) no-repeat;*/
+}
+.source-icon-pic4{
+ background: url(../../assets/fontend/aboutus-images/MEETING.png) no-repeat;
+}

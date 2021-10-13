@@ -1,0 +1,765 @@
+* {
+
+  box-sizing: border-box;
+
+}
+
+body {
+
+  margin: 0px;
+
+  padding: 0px;
+
+}
+
+#overview-h2,
+
+#overview-h3,
+
+#overview-p,
+
+.note,
+
+.overview-h3,
+
+.overview-p {
+
+    font-size: 16px;
+
+    line-height: 19.2px
+
+}
+
+.note {
+
+    color: #666;
+
+    text-transform: none;
+
+    font-weight: 300
+
+}
+
+.clearfix:after {
+
+    content: "";
+
+    display: table;
+
+    clear: both
+
+}
+
+.footer-list {
+
+    padding-right: 0;
+
+    padding-top: 20px;
+
+    width: 20%
+
+}
+
+
+
+@media only screen and (min-device-width: 642px) {
+
+    .loggg {
+
+        width: 152px
+
+    }
+
+    
+
+}
+
+
+
+@media only screen and (min-device-width: 768px) {
+
+   
+
+    .loggg {
+
+        width: 140px
+
+    }
+
+}
+
+
+
+/* Animation */
+
+.control-box, a.carousel-control, .carousel-indicators li {
+
+  -webkit-transition: all 250ms ease;
+
+  -moz-transition: all 250ms ease;
+
+  -ms-transition: all 250ms ease;
+
+  -o-transition: all 250ms ease;
+
+  transition: all 250ms ease;   
+
+  /* hardware acceleration causes Bootstrap carousel controlbox margin error in webkit */
+
+  /* Assigning animation to indicator li will make slides flicker */
+
+  } 
+
+
+
+
+
+/* Hover animation */
+
+.carousel:hover .control-box { opacity: 1; }
+
+.carousel:hover a.carousel-control.left { left: 15px; }
+
+.carousel:hover a.carousel-control.right { right: 15px; }  
+
+
+
+
+
+/* Carouse Indicator */
+
+.carousel-indicators li.active,
+
+.carousel-indicators li { border: 0; }
+
+
+
+.carousel-indicators li {
+
+  background: #ddd;
+
+  margin: 0 3px;
+
+  width: 12px;
+
+  height: 12px;
+
+  }
+
+
+
+.carousel-indicators li.active {
+
+  background: #255E98 !important;
+
+  margin: 0 3px;
+
+  }
+
+
+
+.img-content,
+
+.middle {
+
+    -webkit-transform: translateY(-50%);
+
+    -moz-transform: translateY(-50%);
+
+    -ms-transform: translateY(-50%);
+
+    -o-transform: translateY(-50%)
+
+}
+
+
+
+
+
+#logo-stripe h3,
+
+.inn-hgroup-h3 {
+
+    font-weight: 300;
+
+    text-align: center;
+
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif
+
+}
+
+
+
+
+
+.inn-hgroup-h3 {
+
+    font-size: 2.6em;
+
+    line-height: 1.3em;
+
+    color: #18527c;
+
+    margin-bottom: 10px
+
+}
+
+
+
+
+
+.pppp,
+
+.section-hgroup-p {
+
+    font-size: 1.2em;
+
+    line-height: 1.4em;
+
+    text-align: center
+
+}
+
+
+
+.left,
+
+.quote-cmp,
+
+.tweet {
+
+    float: left
+
+}
+
+
+
+.pppp {
+
+    color: #8e959c
+
+}
+
+
+
+.hgroup-pp {
+
+    padding-bottom: 5%;
+
+    padding-top: 5%
+
+}
+
+
+
+
+
+.right,
+
+.successful-right {
+
+    float: right
+
+}
+
+
+
+
+
+.base,
+
+.line,
+
+.width strong {
+
+    font-weight: 700
+
+}
+
+
+
+.base span,
+
+.fullwidth-user,
+
+.middle {
+
+    position: relative
+
+}
+
+
+
+.successful-left,
+
+.successful-right {
+
+    background-size: cover;
+
+    background-position: center
+
+}
+
+
+
+.base span {
+
+    z-index: 1
+
+}
+
+
+
+.line {
+
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+    font-size: 1.1em;
+
+    line-height: 1;
+
+    padding: 60px 15px 10px;
+
+    border-bottom: 1px solid #e0e5e9;
+
+    text-transform: uppercase;
+
+    clear: both
+
+}
+
+
+
+.tertiary,
+
+.white {
+
+    border: 1px solid #fff;
+
+    color: #fff
+
+}
+
+
+
+.successful-half {
+
+    width: 100%
+
+}
+
+
+
+.sell-email {
+
+    background-image: url(../../assets/fontend/bdtdc-images/71-tv.jpg);
+
+/*    background-image: url(../bdtdc-images/sell_email.jpg);*/
+
+}
+
+
+
+.agency-platform {
+
+    background-image: url(../../assets/fontend/bdtdc-images/Channel-9.jpg)
+
+   /* background-image: url(../bdtdc-images/agency_platform.jpg);*/
+
+}
+
+
+
+.middle {
+
+    top: 50%;
+
+    transform: translateY(-50%)
+
+}
+
+
+
+.resource-h4 {
+
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+    font-size: 2.1em;
+
+    font-weight: 300;
+
+    /*line-height: 1.3em;
+
+    color: #fff;
+
+    text-shadow: 0 2px 0 rgba(0, 0, 0, .4);
+
+    margin: 0 auto 25px;
+
+    width: 90%;*/
+
+}
+
+
+
+.white {
+
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+
+    -webkit-box-shadow: 0 1px 0 0 rgba(0, 0, 0, .2);
+
+    -moz-box-shadow: 0 1px 0 0 rgba(0, 0, 0, .2);
+
+    box-shadow: 0 1px 0 0 rgba(0, 0, 0, .2)
+
+}
+
+.img-border{
+    border:2px solid;
+}
+.bg-secondary{
+    background-color:darkgrey;
+    font-weight:bold;
+}
+.tertiary {
+
+    padding: 8px 26px 9px;
+
+    background-color: #19446f;
+
+    text-shadow: none
+
+}
+
+.newstertiary {
+    padding: 8px 26px 9px;
+    background-color: #19446f;
+    margin-top: 48px;
+    float: right;
+    text-shadow: none;
+}
+
+
+
+.why-email {
+
+    background-image: url(../../assets/fontend/bdtdc-images/why_email_marketing.png)
+
+}
+
+
+
+.successful-left {
+
+    float: left
+
+}
+
+
+
+.full {
+
+    width: 100%
+
+}
+
+
+
+.understand-email {
+
+     background-image: url(../../assets/fontend/bdtdc-images/NEWS-Press-Release.jpg)
+
+  /*  background-image: url(../bdtdc-images/understand_email.jpg);*/
+
+}
+
+
+
+.resource {
+
+    height: 330px;
+
+    text-align: center;
+
+    margin: 20px 0 0
+
+}
+
+
+
+.getting-stat {
+
+     background-image: url(../../assets/fontend/bdtdc-images/BDTDC-Fights-Pollution-&-Poverty.jpg)
+
+   /* background-image: url(../bdtdc-images/getting_started.jpg);*/
+
+}
+
+
+
+.cmbtn {
+
+    -khtml-border-radius: 4px;
+
+    -moz-border-radius: 4px;
+
+    -webkit-border-radius: 4px;
+
+    border-radius: 4px;
+
+    font-family: Lato, "Helvetica Neue", Helvetica, Arial, "Lucida Grande", sans-serif;
+
+    font-size: 1.3em;
+
+    line-height: 1.62em;
+
+    font-weight: 700;
+
+    text-shadow: 0 1px 0 rgba(0, 0, 0, .1);
+
+    letter-spacing: .05em;
+
+    display: inline-block;
+
+    text-transform: uppercase
+
+}
+
+.top-path-li, .top-path-li-a {
+
+    color: #333;
+
+    font-size: 13px;
+
+    overflow: hidden;
+
+}
+
+
+
+.top-path {
+
+    width: 100%;
+
+    float: left;
+
+    padding: 22px 0 0 7px;
+
+    margin: 0;
+
+    list-style-type: none;
+
+}
+
+.top-path-li {
+
+    list-style: none;
+
+    display: inline-block;
+
+    padding-right: 10px;
+
+    margin: 0;
+
+}
+
+.top-path-li-a {
+
+    cursor: pointer;
+
+    font-weight: 400;
+
+    letter-spacing: inherit;
+
+}
+
+
+
+.top-path-icon {
+
+    font-size: 14px;
+
+    font-weight: 400;
+
+    color: #333;
+
+}
+
+
+
+.item {
+
+    padding: 0!important;
+
+    margin: 0!important
+
+}
+
+.footer-media>a {
+
+    float: left
+
+}
+
+.serch-inpt {
+
+    border: 2px solid #19446F;
+
+    border-radius: 0!important
+
+}
+
+#content,#home_b,#item_sha,.item_sha {
+
+    background-color: #fff
+
+}
+
+#topbar_sha,.topbar_sha {
+
+    background-color: #fff;
+
+    padding-top: 10px;
+
+    z-index: 1;
+
+    /*padding-bottom:20px;*/
+
+}
+
+.carousel-inner .left {
+
+    z-index: 3;
+
+}
+
+
+
+a:hover {
+
+    color: #3175af;
+
+}
+
+.form-control {
+
+    height: 35px
+
+}
+
+i.fa-angle-right {
+
+    font-size: 30px;
+
+    /*width: 100%*/
+
+}
+
+
+
+.padding_0 {
+
+    padding: 0
+
+}
+
+.container{font-family:verdana;}
+
+
+
+.category-bdt{
+
+    height: 30px;
+
+    padding-left: 15px;
+
+}
+
+ 
+
+
+
+.category-bdt a{
+
+    font-size: 18px;
+
+    color: #333;
+
+    /*height: 30px;*/
+
+}
+
+.category-bdt > a:hover{
+
+    color: #FF6A00;
+
+}
+
+
+
+.show-ct-list{
+
+    position: absolute;
+
+    z-index: 9999;
+
+    width: 300px;
+
+    top: 30px;
+
+    background: #fff;
+
+    left: 15px;
+
+    border: 1px solid #ddd;
+
+}
+
+.top-categy{
+
+    color: #255E98;
+
+    display: block;
+
+    font-size: 14px;
+
+    font-weight: 700;
+
+    height: 18px;
+
+    opacity: .7;
+
+    line-height: 18px;
+
+}
+
+.category-bdt:hover {
+
+    border: 1px solid #ddd !important;
+
+    border-bottom: 1px solid transparent !important;
+
+}
+
+.next,.prev {
+
+    color: #fff;
+
+    margin-top: -12px;
+
+    position: absolute;
+
+    top: 50%;
+
+    z-index: 9
+
+}
+
+.next {
+
+    font-size: 40px;
+
+    right: 5px
+
+}
+

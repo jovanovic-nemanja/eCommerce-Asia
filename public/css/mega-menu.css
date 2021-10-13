@@ -1,0 +1,176 @@
+.mobo-categories h3 {
+    margin-bottom: 8px;
+    margin-top: 0
+}
+
+.mobo-categories h3 a {
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    line-height: 18px
+}
+
+.mobo-categories .bazar-list {
+    padding-left: 0;
+    width: 100%;
+    margin: 1px;
+}
+
+.mobo-categories a:hover {
+    text-decoration: none
+}
+
+.mobo-categories .bazar-list li {
+    border-color: #fff;
+    border-radius: 3px 0 0 3px;
+    border-style: solid;
+    border-width: 1px;
+    position: relative;
+    z-index: 2;
+    list-style: none;
+    transition: all .3s !important
+}
+
+.mobo-categories .bazar-list li a {
+    color: #666;
+    display: inline-block;
+    font-size: 13px;
+    line-height: 20px;
+    padding: 5px 0;
+    width: 80%
+}
+
+.mobo-categories .bazar-list li span {
+    color: #000;
+    display: inline-block;
+    font-size: 10px;
+    line-height: 22px;
+    padding: 5px 15px 5px 0;
+    text-align: right
+}
+
+.mobo-categories .bazar-list.sourcing li a {
+    width: 90%
+}
+
+.mobo-categories .bazar-list li:hover span {
+    color: #2187C8
+}
+
+.mobo-categories .bazar-list li.current {
+    padding-top: 0;
+    background-color: #fff;
+    box-shadow: 0px 0px 4px 0 rgba(0,0,0,.25);
+    z-index: 20
+}
+
+.mobo-categories .bazar-list li.current a {
+    padding-left: 0px
+}
+
+.mobo-categories .bazar-list li.all a {
+    color: #000;
+    font-size: 14px;
+    height: 20px
+}
+
+.mobo-categories .bazar-list li.all a:hover {
+    color: #2187C8
+}
+
+.util-clearfix::after {
+    clear: both;
+    content: " ";
+    display: block;
+    font-size: 0;
+    height: 0;
+    visibility: hidden
+}
+
+.mobo-categories .cacostos {
+    background-color: #fff;
+    margin-left: 99%;
+    border-radius: 3px;
+    box-shadow: 1px 1px 4px 0 rgba(0,0,0,.25);
+    display: none;
+    margin-top: -25px;
+    padding: 20px 20px 30px;
+    position: absolute;
+    width: 450px;
+    height: auto;
+    z-index: 99999
+}
+
+.mobo-categories .cacostos .cacostos-list {
+    box-sizing: border-box;
+    float: left;
+    width: 200px;
+    padding-left: 0
+}
+
+.mobo-categories .cacostos .cacostos-list li {
+    box-sizing: border-box;
+    list-style: none;
+    margin-left: 0;
+    padding: 10px 10px 30px;
+    padding-bottom: 0;
+}
+
+.mobo-categories .cacostos .prothom-cacostos {
+    color: #255E98;
+    display: block;
+    font-size: 16px;
+    font-weight: 700;
+    line-height: 20px;
+    margin-bottom: 10px
+}
+
+.mobo-categories .cacostos .ditio-cacostos a {
+    color: #333;
+    display: block;
+    font-size: 12px;
+    line-height: 16px;
+    padding: 5px 0
+}
+
+.mobo-categories .cacostos .ditio-cacostos a:hover {
+    text-decoration: underline;
+    color: #2187C8
+}
+.input-group-addon {
+  -webkit-border-radius: 0;
+  -moz-border-radius: 0;
+  -ms-border-radius: 0;
+  -o-border-radius: 0;
+  border-radius: 0;
+  background: none;
+  border: 0;
+  border-bottom: 1px solid #e5e5e5;
+  background:#255E98 !important;
+  color: #fff;
+}
+.category-bdt{
+    height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+    font-size: 18px;
+    color: #333;
+    /*height: 30px;*/
+}
+.category-bdt > a:hover{
+    color: #FF6A00;
+}
+.show-ct-list{
+    position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}

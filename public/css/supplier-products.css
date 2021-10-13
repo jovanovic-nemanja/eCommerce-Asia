@@ -1,0 +1,495 @@
+
+
+
+
+
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#overview-h2,
+#overview-h3,
+#overview-p,
+.note,
+.overview-h3,
+.overview-p {
+    font-size: 16px;
+    line-height: 19.2px
+}
+.note {
+    color: #666;
+    text-transform: none;
+    font-weight: 300
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.footer-list {
+    padding-right: 0;
+    padding-top: 20px;
+    width: 20%
+}
+
+@media only screen and (min-device-width: 642px) {
+    .loggg {
+        width: 152px
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) {
+   
+    .loggg {
+        width: 140px
+    }
+}
+
+#sourcing-list{
+    max-width: 904px;
+    padding-top: 15px;
+    padding-bottom: 18px;
+    display: none;
+    position: absolute;
+    top: 42px;
+    margin: 0;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.53);
+}
+
+.footer-media>a {
+    float: left
+}
+.serch-inpt {
+    border: 2px solid #19446F;
+    border-radius: 0!important
+}
+#content,#home_b,#item_sha,.item_sha {
+    background-color: #fff
+}
+
+#topbar_sha,.topbar_sha {
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
+    /*padding-bottom:20px;*/
+}
+.form-control {
+    height: 35px
+}
+
+i.fa-angle-right {
+    font-size: 30px;
+    width: 100%
+}
+.padding_0 {
+    padding: 0
+}
+.container{font-family:verdana;}
+
+.category-bdt{
+    height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+    font-size: 18px;
+    color: #333;
+    /*height: 30px;*/
+}
+.category-bdt > a:hover{
+    color: #FF6A00;
+}
+
+.show-ct-list{
+    position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+
+.category-bdt:hover {
+    border: 1px solid #ddd !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+#sourcing-list
+{
+    padding-left: 3%;
+    background-color: rgb(255, 255, 255) !important;
+    margin-left: 3%;
+    display:none;
+    z-index:1;
+}
+
+#sourcing-list1
+{
+
+    background:url('../helpcenter/RFQ-Banner-04.jpg');
+    background-repeat: no-repeat;
+    background-size: 100% 100%;
+    height: 324px;
+}
+.source
+{  
+  border: 1px solid #DAE2ED;
+}
+
+.cate-details {
+    left: 0;
+    top: 0;
+   /* width: 218px !important;*/
+}
+
+.country-trade-title{
+    display: block;
+    font-size: 30px;
+    line-height: 36px;
+    color: #fff;
+    text-decoration: none;
+    margin-bottom: 24px;
+    margin-top: 10%;
+    text-align: center;
+}
+
+.cat-li:hover,.choice-cat:hover {
+    background: #255E98;
+    /*padding-left:12px;border-radius:3px!important;*/
+    /*transition: all 1s;*/
+    padding: 2px 20px;
+}
+
+
+.cat-li:hover a,.choice-cat:hover a,.choice-cat:hover a span {
+    color: #fff;
+    font-size: 14px
+}
+
+.choice-cat:hover {
+    /*padding-top:5px;*/
+}
+
+.cat-li:hover {
+    /*padding-top:6px;*/
+}
+
+.cat-li a {
+    transition: none !important;
+    display: block;
+    padding: 3px 0
+}
+
+.cat-li, .cat-li:hover {
+    padding: 0;
+    padding-left: 20px
+}
+
+
+/* Carousel Control custom */
+.carousel-control .control-icon {
+  font-size: 48px;
+  height: 30px;
+  margin-top: -15px;
+  width: 30px;
+  display: inline-block;
+  position: absolute;
+  top: 50%;
+  z-index: 5;
+  }
+  .carousel-control .prev { margin-left:  -15px;  left: 50%; } /* Prev */
+  .carousel-control .next { margin-right: -15px; right: 50%; } /* Next */
+
+
+/* Removing BS background */
+.carousel .control-box { opacity: 0; }
+a.carousel-control.left  { left: 0; background: none; border: 0;}
+a.carousel-control.right { right: 0; background: none; border: 0;}
+
+
+/* Animation */
+.control-box, a.carousel-control, .carousel-indicators li {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;   
+  /* hardware acceleration causes Bootstrap carousel controlbox margin error in webkit */
+  /* Assigning animation to indicator li will make slides flicker */
+  } 
+
+
+/* Hover animation */
+.carousel:hover .control-box { opacity: 1; }
+.carousel:hover a.carousel-control.left { left: 15px; }
+.carousel:hover a.carousel-control.right { right: 15px; }  
+
+
+/* Carouse Indicator */
+.carousel-indicators li.active,
+.carousel-indicators li { border: 0; }
+
+.carousel-indicators li {
+  background: #ddd;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  }
+
+.carousel-indicators li.active {
+  background: #255E98 !important;
+  margin: 0 3px;
+  }
+
+
+.left,
+.quote-cmp,
+.tweet {
+    float: left
+}
+
+.cate-details {
+    left: 0;
+    top: 0;
+/*    width: 315px*/
+}
+
+.col-row-img {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-right: 0 none
+}
+
+.cate-d-title {
+    padding: 30px 20px 20px;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    width: 100%;
+    height: 140px;
+    color: #000
+}
+
+.supp-pro-img {
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 110%
+}
+.bd-prduct{
+    border:0 none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.product-hover{
+    border:1px solid transparent;
+}
+.product-hover:hover{
+      border:1px solid #ddd;
+}
+.cate-ul-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.cat-li {
+    width: 100%;
+    padding: 3px 0;
+    padding-left: 20px;
+    line-height: 26px;
+   /* transition: all 1s;*/
+}
+
+.cat-li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px
+}
+
+.cat-li a:hover {
+    color: #fff !important;
+    text-decoration: none
+}
+
+.sup-head-col {
+    padding-top: 0
+}
+
+
+.img-hilight {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid transparent;
+
+}
+
+.item {
+    padding: 0!important;
+    margin: 0!important
+}
+
+
+.brand-year16 {
+    font-size: 14px;
+    line-height: 20px;
+    /*img-thumbnail*/
+    color: #004B91;
+    text-decoration: none;
+    font-weight: 700
+}
+
+.brand-year16:hover {
+    text-decoration: underline;
+    color: #1686CC
+}
+
+.doller-product-price {
+    color: #ce322e;
+    font-family: verdana;
+    font-size: 16px;
+    font-weight: 400
+}
+
+.product-hover:hover {
+    box-shadow: 2px 3px -1px #aaa;
+}
+
+
+.product-head-cont {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    overflow: hidden;
+    height: 154px
+}
+
+#content,#home_b,#item_sha,.item_sha {
+    background-color: #fff
+}
+
+#topbar_sha,.topbar_sha {
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
+    /*padding-bottom:20px;*/
+}
+.slidebox-item,.slidebox-item-list,.slidebox-item-side {
+    margin: 0;
+    border: 1px solid #F0F0F0
+}
+
+.slidebox-item-list {
+    width: auto;
+    background: #fff
+}
+
+.brand-year {
+    padding: 50px 0 0 60px;
+    font-size: 13px;
+    line-height: 12px;
+    color: #333
+}
+
+.brand-favorable {
+    margin: 0;
+    padding: 6px 0 10px;
+    text-align: center;
+    color: #999;
+    height: 40px
+}
+
+#cat1 {
+    background-color: #d3b541;
+    border-top: 2px solid #d3b541
+}
+
+#cat2 {
+    background-color: #d72c64;
+    border-top: 2px solid #d72c64
+}
+
+#cat3 {
+    background-color: #462dcb;
+    border-top: 2px solid #462dcb
+}
+
+#cat4 {
+    background-color: #d72bb1;
+    border-top: 2px solid #d72bb1
+}
+
+#cat5 {
+    background-color: #97cf44;
+    border-top: 2px solid #97cf44
+}
+
+#cat6 {
+    background-color: #40CFB5;
+    border-top: 2px solid #40CFB5
+}
+
+#cat7 {
+    background-color: #00cf6c;
+    border-top: 2px solid #00cf6c
+}
+
+#cat8 {
+    background-color: #1a64cc;
+    border-top: 2px solid #1a64cc
+}
+
+#cat9 {
+    background-color: #d92c35;
+    border-top: 2px solid #d92c35
+}
+
+#cat10,#cat11,#cat13,#cat205 {
+    background-color: #802dcb;
+    border-top: 2px solid #802dcb
+}
+
+
+.carousel-inner .left {
+    z-index: 3;
+}
+
+.carousel-inner .left {
+    z-index: 3;
+}
+.btn-join{
+    padding: 0 20px;
+}
+.slidebox-item-list {
+    width: auto;
+    background: #fff;
+}
+.slidebox-item-list:hover, .slidebox-item-side:hover, .slidebox-item:hover {
+    box-shadow: 0px 0px 10px rgba(169,169,169,.67);
+    z-index: 1;
+}

@@ -1,0 +1,61 @@
+body{background:#fff}a{color:#000}.padding_left_0{padding-left:0}.padding_right_0{padding-right:0}.padding_0{padding:0}.margin_0{margin:0}.img-responsive.logo_icon{display:inline-block;height:24px;overflow:hidden;width:100%}.wholesale_pro_img{border:2px solid #e4e4e4;height:230px;padding:6%;width:100%}.product_row{margin-bottom:1%}.product_title{font-size:12px;font-weight:400;line-height:14px;margin-top:2%;display:inline-block;padding-top:0;padding-bottom:0}.follow_us_text{display:inline-block;line-height:0;font-size:13px}.company_title{display:inline-block;font-size:12px;line-height:0;margin-top:2.8%}.list_padding_0{padding:0!important}.company_information_table tr td{font-size:13px;line-height:0;padding-bottom:0!important}.capability li,.product_category li{font-size:13px;margin-top:3%;padding-bottom:0;padding-top:0}.capability li{border:none}.product_category li{-moz-border-bottom-colors:none;-moz-border-left-colors:none;-moz-border-right-colors:none;-moz-border-top-colors:none;border-color:-moz-use-text-color -moz-use-text-color #e8e8e8;border-image:none;border-style:none none solid;border-width:medium medium 1px}.capability_list{font-size:14px;padding-top:1%;padding-bottom:1%!important;line-height:29px;font-weight:700}.shad_background{background:#E8E8E8}.border_right{border-right:1px solid #32AFD4}.company_information_table>tbody>tr>td,.contact_supplier_table>thead>tr>td{border-top:none}.capability_table{font-size:12px}.more{font-size:14px;color:#1686cc;height:28px;line-height:28px;padding-left:13px}.logo_color{color:#1A4570}.product_category li a{line-height:26px;color:#666}.add_product_icon{background:url(/js/5v/esite/img/sprites-v2.png?t=cf8190ea_0) -150px -505px no-repeat rgba(0,0,0,0);display:inline-block;font-size:30px;height:23px;margin:-6px 12px;opacity:.5;vertical-align:top;width:29px}.company-head{width:100%;padding-left:30px;float:left;overflow:hidden;display:block;list-style-type:none;margin:0}.head-title-img,.head-title-img1{width:128%;height:40px;padding:0;overflow:hidden;display:block}.head-title-img{float:left;margin-left:-15px}.head-title-img1{float:right;margin-right:-24%}.header-company-title{padding:0 0 0 4%;margin:0;float:left;font-size:24px;display:block;width:88%;top:0;overflow:hidden;line-height:30px;color:#333;font-weight:600;font-family:sans-serif}.temp-pro:hover{background-color:#FFF;box-shadow:2px 2px 10px hsla(0,0%,0%,.3);position:absolute;border:1px solid #ddd;padding:9px 20px 20px;z-index:2;margin-left:-21px}.temp-nav-li{font-size:14px;height:33px;line-height:33px;border:none;color:#363432;font-weight:700;padding:0 15px;position:relative;cursor:pointer;display:block;text-decoration:none}
+.veryfi-logo {
+	display: block;
+    float: left;
+    width: 60px;
+   
+    margin-right: 10px;
+}
+.vryfi-info{
+	display: block;
+    overflow: hidden;
+    zoom: 1;
+    font-size: 12px;
+    line-height: 20px;
+}
+.onck-h3{
+	font-size: 14px;
+    line-height: 21px;
+    font-weight: 700;
+    padding-left: 0;
+    margin-bottom: 10px;
+}
+.certificate-title{
+    padding: 0;
+    font-size: 20px;
+    font-weight: 700;
+    padding-bottom: 20px;
+    border-bottom: 1px solid #ddd;
+    margin-bottom: 20px;
+}
+.mag {
+    max-width:750px;
+    margin: 0 auto;
+    float: none;
+}
+    
+.mag img {
+    max-width: 100%;
+}
+        
+  
+
+.magnify {
+    position: relative;
+    cursor: none
+}
+
+.magnify-large {
+    position: absolute;
+    display: none;
+    width: 175px;
+    height: 175px;
+
+    -webkit-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+       -moz-box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+            box-shadow: 0 0 0 7px rgba(255, 255, 255, 0.85), 0 0 7px 7px rgba(0, 0, 0, 0.25), inset 0 0 40px 2px rgba(0, 0, 0, 0.25);
+    
+    -webkit-border-radius: 100%;
+       -moz-border-radius: 100%;
+             border-radius: 100%
+}

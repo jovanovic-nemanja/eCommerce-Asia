@@ -1,0 +1,10 @@
+diff a/resources/views/contents_view/membership.blade.php b/resources/views/contents_view/membership.blade.php	(rejected hunks)
+@@ -292,7 +292,7 @@
+ 		</div>
+ 	</div>
+ 	<div class="row" style="background-color: #fff; padding-bottom: 3%;margin-bottom: 10px;border-bottom: 1px solid rgba(0,0,0,.1);">
+-		<p class="mmember-p">To learn more about our Gold Supplier,<a itemprop="url"  href="{{ URL::to('Bdtdc/Gold-supplier',null) }}">Click Here</a></p>
++		<p class="mmember-p">To learn more about our Gold Supplier,<a itemprop="url"  href="{{ URL::to('Gold-supplier',null) }}">Click Here</a></p>
+ 		<p class="mmember-p" style="padding-top: 0;">Contact BuyerSeller.Asia staff at <a itemprop="url"  href="#">goldsupplier@BuyerSeller.Asia</a>.</p>
+ 	</div>
+ 	<br>

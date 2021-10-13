@@ -1,0 +1,12 @@
+# git ignore file to avoid image file upload on bitbucket
+/uploads/*
+./uploads/*
+./banner-images/*
+/banner-images/*
+/bdtdc-product-image/*
+./bdtdc-product-image/*
+/public/bdtdc-product-image/*
+./public/bdtdc-product-image/*
+node_modules
+vendor
+.env

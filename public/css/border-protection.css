@@ -1,0 +1,152 @@
+.td-hed{
+    width: 100%;
+    display: block;
+    font-size: 16px;
+    color: #000;
+    font-weight: bold;
+    overflow: hidden;
+}
+.buyer-notice-sort {
+    width: 24px;
+    height: 24px;
+    display: block;
+    border: 1px solid #9B9B9B;
+    background: #fff;
+    text-align: center;
+    line-height: 24px;
+    font-size: 14px;
+    color: #9B9B9B;
+    position: absolute;
+}
+.trade-buy-box{
+    width: 86%;
+    border: 1px solid #e5e5e5;
+    margin-top: 2%;
+    padding-top: 2%;
+    padding-bottom: 2%;
+    padding-left: 2%;
+    padding-right: 10%;
+    display: block;
+    overflow: hidden;
+}
+.potection-list{
+    width: 100%;
+    display: block;
+    max-height: 80px;
+    color: #666;
+    font-size: 13px;
+    overflow: hidden;
+    text-align: left;
+    padding-top: 10px;
+}
+.trade-close{
+    font-size: 22px !important;
+    font-weight: normal;
+    color: #666;
+    float: right;
+    display: block;
+}
+.td-em-head{
+    color: #666;
+    font-size: 15px;
+    padding-top: 4%;
+    float: left;
+    width: 100%;
+    overflow: hidden;
+    display: block;
+}
+.mermbership-title{
+    font-size: 18px;
+    color: #333;
+    font-weight: bold;
+    text-align: center;
+    display: block;
+    overflow: hidden;
+    height: 50px;
+    padding-top: 2%;
+
+}
+.member-email-box{
+    width: 100%;
+    display: block;
+    height: 120px;
+    border:1px solid #e5e5e5;
+    margin-top: 7%;
+    width: 86%;
+}
+.email-box{
+    width: 44%;
+    padding-top: 4%;
+    padding-left: 5%;
+    display: block;
+    float: left;
+    overflow: hidden;
+}
+.em-in{
+    width: 55%; 
+    float: left; 
+    display: block;
+    overflow: hidden;
+     padding: 0;
+     margin: 0;
+}
+.drag-p{
+    width: 100%;
+    display: block;
+    float: left;
+    text-align: center;
+    font-size: 17px;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    overflow: hidden;
+    font-weight: normal;
+    font-family: verdana;
+}
+.show-ct-list{
+    position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+
+caption,td,th {
+    float: none!important
+}
+
+caption,table,tbody,td,tfoot,th,thead,tr {
+    margin: 0;
+    padding: 0;
+    border: 0!important;
+    font: inherit
+}
+#back-home,#bang-trade {
+    font-size: 12px;
+    margin: 0;
+    font-family: verdana;
+    transition: .3s;
+    color: #255E98;
+    text-align: center
+}
+
+#bang-trade {
+    line-height: 14px;
+    word-spacing: 0;
+    display: block;
+    padding: 0;
+    font-weight: 900;
+    white-space: pre-line;
+    height: 40px;
+    width: 180px
+}

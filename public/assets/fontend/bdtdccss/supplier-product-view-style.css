@@ -1,0 +1,156 @@
+.fill {
+    width: 100%;
+    height: 100%;
+    background-position: center;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    background-size: cover;
+    -o-background-size: cover
+}
+
+.sup-icon {
+    width: 25%;
+    padding: 7% 0;
+    margin: 0;
+    float: left;
+    display: block
+}
+
+.h3-select,
+.p-select {
+    padding-left: 2%;
+    float: left
+}
+
+.h3-select {
+    font-size: 20px;
+    color: #333;
+    padding-top: 3%;
+    width: 73%
+}
+
+.p-select {
+    width: 74%;
+    display: block
+}
+
+.cate-details {
+    left: 0;
+    top: 0;
+/*    width: 315px*/
+}
+
+.col-row-img {
+    padding: 0;
+    margin: 0;
+    border: 1px solid #ddd;
+    border-right: 0 none
+}
+
+.cate-d-title {
+    padding: 30px 20px 20px;
+    overflow: hidden;
+    font-size: 18px;
+    line-height: 28px;
+    font-weight: 700;
+    width: 100%;
+    height: 140px;
+    color: #000
+}
+
+.supp-pro-img {
+    float: left;
+    display: block;
+    overflow: hidden;
+    width: 110%
+}
+.bd-prduct{
+    border:0 none !important;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+}
+.product-hover{
+    border:1px solid transparent;
+}
+.product-hover:hover{
+      border:1px solid #ddd;
+}
+.cate-ul-list {
+    width: 100%;
+    padding: 0;
+    margin: 0;
+    display: block;
+    padding-bottom: 15px;
+}
+
+.cat-li {
+    width: 100%;
+    padding: 3px 0;
+    padding-left: 20px;
+    line-height: 26px;
+   /* transition: all 1s;*/
+}
+
+.cat-li a {
+    color: #666;
+    text-decoration: none;
+    font-size: 14px
+}
+
+.cat-li a:hover {
+    color: #fff !important;
+    text-decoration: none
+}
+
+.sup-head-col {
+    padding-top: 0
+}
+
+#btn-quet {
+    display: block;
+    height: 28px;
+    margin: 20px 40px;
+    line-height: 28px;
+    font-size: 14px;
+    letter-spacing: 0
+}
+
+.ui2-button-primary {
+    background: #255E98;
+    color: #FFF;
+    border-color: #255E98
+}
+
+.col-sup-img {
+    height: 160px;
+    width: 160px;
+    /*padding-top:15px;*/
+    border: 0;
+    padding-bottom: 0;
+    padding: 10px 5px 5px 5px;
+}
+
+.img-hilight {
+    width: 100%;
+    display: block;
+    padding: 0;
+    margin: 0;
+    overflow: hidden;
+    background-color: #fff;
+    border: 1px solid transparent;
+
+}
+
+.select_count {
+    position: absolute;
+    border: 1px solid #dae2ed;
+    box-shadow: 2px 2px 3px rgba(0, 0, 0, .13);
+    background-color: #fff;
+    top: 27px;
+    left: -17px;
+    padding: 10px;
+    overflow: auto;
+    height: 250px;
+    z-index: 1;
+    width: 150%
+}

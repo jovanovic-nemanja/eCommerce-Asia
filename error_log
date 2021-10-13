@@ -1,0 +1,6 @@
+[06-Sep-2021 18:38:34 UTC] PHP Warning:  require(/home/buyerco/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/buyerco/public_html/index.php on line 24
+[06-Sep-2021 18:38:34 UTC] PHP Warning:  require(/home/buyerco/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/buyerco/public_html/index.php on line 24
+[06-Sep-2021 18:38:34 UTC] PHP Fatal error:  require(): Failed opening required '/home/buyerco/public_html/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/buyerco/public_html/index.php on line 24
+[06-Sep-2021 18:39:17 UTC] PHP Warning:  require(/home/buyerco/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/buyerco/public_html/index.php on line 24
+[06-Sep-2021 18:39:17 UTC] PHP Warning:  require(/home/buyerco/public_html/../vendor/autoload.php): failed to open stream: No such file or directory in /home/buyerco/public_html/index.php on line 24
+[06-Sep-2021 18:39:17 UTC] PHP Fatal error:  require(): Failed opening required '/home/buyerco/public_html/../vendor/autoload.php' (include_path='.:/opt/cpanel/ea-php73/root/usr/share/pear') in /home/buyerco/public_html/index.php on line 24

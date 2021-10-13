@@ -1,0 +1,98 @@
+.gold-slide-image1{
+   
+    display: block;
+    background: url('../../assets/fontend/bdtdc-images/gold-member-bdtdc.jpg');
+     width: 100%;
+    background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+    background-size: contain;
+}
+.gold-slide-image2{
+   
+    display: block;
+    background: url('../../assets/fontend/bdtdc-images/gold-membership.jpg');
+     width: 100%;
+     background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+     background-size: contain;
+}
+.gold-slide-image3{
+   
+    display: block;
+    background: url('../../assets/fontend/bdtdc-images/gold-banner5.jpg');
+     width: 100%;
+     background-repeat: no-repeat;
+    overflow: hidden;
+    padding: 0;
+    margin: 0;
+    height: 300px;
+     background-size: contain;
+}
+.gold-iconnn{
+    top: 50px;
+    width: 60px;
+    display: block;
+    padding: 0;
+    margin: 0;
+    margin-top: 50px;
+    float: left;
+}
+.gold-h1-title{
+    float: left;
+    margin-top: 54px !important;
+    padding-left: 20px;
+    font-size: 3.5em;
+    color: #000 !important;
+    font-weight: bold;
+    display: block;
+}
+.golo-tit-pp{
+    width: 50%;
+    padding-left: 6px;
+    font-size: 20px !important;
+    font-weight: bold;
+    color: #666 !important;
+    font-family: verdana;
+    display: block;
+}
+.buyer-ttt{
+    width: 430px;
+    height: 130px;
+   
+    position: absolute;
+    left: 20%;
+    opacity: .9;
+    font-size: 25px;
+    color: #fff;
+    top: 30px;
+    text-align: center;
+}
+
+.gold-desc{
+    width: 100%;
+    display: block;
+    overflow: hidden;
+    margin-top: 20px;
+    text-align: left;
+    vertical-align: baseline;
+    display: block;
+    /*line-height: 24px;*/
+    -webkit-margin-before: 1em;
+    -webkit-margin-after: 1em;
+    -webkit-margin-start: 0px;
+    -webkit-margin-end: 0px;
+    padding-right: 13%;
+}
+ .more-link{
+    display: inline-block;
+    margin-right: 40px;
+    padding-right: 13px;
+    background: url('../../assets/fontend/bdtdc-images/roujiantou.gif') right center no-repeat;
+    font: normal 14px;
+}

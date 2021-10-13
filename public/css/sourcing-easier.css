@@ -1,0 +1,134 @@
+.easy-text {
+    max-width: 170px;
+    display: block;
+    padding-left: 5px
+}
+.easy-text,.floot-muem ul li span.text {
+    min-width: 130px;
+    overflow: hidden;
+    float: left;
+    text-overflow: ellipsis;
+    white-space: nowrap
+}
+.reach-head,.reaserch-p,.source-p {
+    vertical-align: baseline
+}
+.sourc-img,.source-wrapper {
+    margin: 0 auto;
+    display: block
+}
+.sorcce-h3 {
+    text-align: center;
+    color: #000;
+    font-size: 22px;
+    padding: 2% 10px;
+    font-weight: 600;
+    font-family: verdana;
+    display: block
+}
+
+.easy-text {
+    min-width: 130px;
+    max-width: 534px;
+    display: block;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: inherit;
+    padding-left: 5px;
+    clear: both;
+    font-size: 17px;
+    line-height: 30px;
+    color: #666;
+    padding-bottom: 24px;
+    float: left;
+    text-align: justify
+}
+
+.easy-text td {
+    width: 50%
+}
+
+.right-40 {
+    padding-right: 20px;
+    padding-left: 0
+}
+
+.source-wrapper {
+    width: 100%
+}
+
+.common-img-text {
+    padding: 30px 0;
+}
+
+.source-a,.source-p {
+    font-family: verdana
+}
+
+.sourc-img {
+    width: 80%;
+    padding: 0;
+    overflow: hidden;
+    height: 265px;
+    text-align: center
+}
+
+.source-p {
+    font-size: 13px;
+    line-height: 22px;
+    display: block;
+    width: 100%;
+    overflow: hidden;
+    padding: 10px 0 0
+}
+
+.source-easy-title {
+    width: 750px;
+    height: 180px;
+    background-color: #312823;
+    position: absolute;
+    opacity: .8;
+    left: 26%;
+    top: 8.5%
+}
+
+.s-ttitl {
+    color: #fff;
+    font-size: 270%;
+    padding: 56px 50px;
+    font-weight: 700;
+    font-family: initial;
+    margin: 0;
+    overflow: hidden
+}
+
+.buyer-supplier-banner {
+    background: url(../../assets/fontend/bdtdc-images/find-right-buyer.jpg) center no-repeat;
+    padding: 0;
+    margin: 0;
+    border: 0;
+    min-height: 300px
+}
+#back-home,#bang-trade {
+    font-size: 12px;
+    margin: 0;
+    font-family: verdana;
+    transition: .3s;
+    color: #255E98;
+    text-align: center
+}
+
+#bang-trade {
+    line-height: 14px;
+    word-spacing: 0;
+    display: block;
+    padding: 0;
+    font-weight: 900;
+    white-space: pre-line;
+    height: 40px;
+    width: 180px
+}
+.soure-easier-banner {
+    background: url(../../assets/fontend/bdtdc-images/quick-user-guide.jpg) center no-repeat;
+    height: 350px;
+}

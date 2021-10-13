@@ -1,0 +1,1575 @@
+{
+	"auto_complete":
+	{
+		"selected_items":
+		[
+			[
+				"Re",
+				"Redirect"
+			],
+			[
+				"de",
+				"device"
+			],
+			[
+				"pass",
+				"password"
+			],
+			[
+				"pa",
+				"padding-bottom\tproperty"
+			],
+			[
+				"_",
+				"_blank"
+			],
+			[
+				"re",
+				"request"
+			],
+			[
+				"bor",
+				"border-radius\tproperty"
+			],
+			[
+				"or",
+				"order"
+			],
+			[
+				"o",
+				"order"
+			],
+			[
+				"Bd",
+				"BdtdcSupplierInvoice"
+			],
+			[
+				"print",
+				"print_r"
+			],
+			[
+				"Bdtdc",
+				"BdtdcOrder"
+			],
+			[
+				"p",
+				"placeholder\tAttr"
+			],
+			[
+				"ma",
+				"margin-top\tproperty"
+			],
+			[
+				"fun",
+				"function"
+			],
+			[
+				"bo",
+				"border-bottom\tproperty"
+			],
+			[
+				"mar",
+				"margin-top\tproperty"
+			],
+			[
+				"ac",
+				"action\tAttr"
+			],
+			[
+				"Bdtd",
+				"BdtdcSupplierInfo"
+			],
+			[
+				"mem",
+				"membership_pakacge_id"
+			],
+			[
+				"marg",
+				"margin-right\tproperty"
+			],
+			[
+				"has",
+				"hasOne"
+			],
+			[
+				"B",
+				"BdtdcSupplierPackage"
+			],
+			[
+				"comp",
+				"company_id"
+			],
+			[
+				"sle",
+				"selected"
+			],
+			[
+				"Se",
+				"Sentinel"
+			],
+			[
+				"fu",
+				"function"
+			],
+			[
+				"requ",
+				"required"
+			],
+			[
+				"di",
+				"display\tproperty"
+			],
+			[
+				"Pay",
+				"PayPal"
+			],
+			[
+				"pad",
+				"padding-top\tproperty"
+			],
+			[
+				"pas",
+				"password"
+			],
+			[
+				"arr",
+				"array"
+			],
+			[
+				"to",
+				"token"
+			],
+			[
+				"st",
+				"style\tAttr"
+			],
+			[
+				"wi",
+				"width\tproperty"
+			],
+			[
+				"is",
+				"isset"
+			],
+			[
+				"col-m",
+				"col-md-3"
+			],
+			[
+				"hidd",
+				"hidden-sm"
+			],
+			[
+				"hidde",
+				"hidden-md"
+			],
+			[
+				"font-s",
+				"font-size\tproperty"
+			],
+			[
+				"pri",
+				"print_r"
+			],
+			[
+				"en",
+				"endphp"
+			],
+			[
+				"min",
+				"min-height\tproperty"
+			],
+			[
+				"box",
+				"box-shadow\tproperty"
+			],
+			[
+				"w",
+				"width\tproperty"
+			],
+			[
+				"tex",
+				"text-align\tproperty"
+			],
+			[
+				"co",
+				"color\tproperty"
+			],
+			[
+				"ba",
+				"background-color\tproperty"
+			],
+			[
+				"le",
+				"lent"
+			],
+			[
+				"pu",
+				"public"
+			]
+		]
+	},
+	"buffers":
+	[
+		{
+			"file": "app/Http/Controllers/SessionsController.php",
+			"settings":
+			{
+				"buffer_size": 10055,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "routes/web.php",
+			"settings":
+			{
+				"buffer_size": 61570,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Controllers/StandardUser/UsersController.php",
+			"settings":
+			{
+				"buffer_size": 44195,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/fontend/master-login.blade.php",
+			"settings":
+			{
+				"buffer_size": 18110,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/fontend/layouts/dashboard-home.blade.php",
+			"settings":
+			{
+				"buffer_size": 6858,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "resources/views/fontend/layouts/dashboard-latest.blade.php",
+			"settings":
+			{
+				"buffer_size": 5785,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Middleware/SentinelSupplier.php",
+			"settings":
+			{
+				"buffer_size": 1139,
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Model/User.php",
+			"settings":
+			{
+				"buffer_size": 1800,
+				"encoding": "UTF-8",
+				"line_ending": "Windows"
+			}
+		},
+		{
+			"file": "app/Http/Middleware/SentinelRedirectIfAuthenticated.php",
+			"settings":
+			{
+				"buffer_size": 1574,
+				"line_ending": "Windows"
+			}
+		}
+	],
+	"build_system": "",
+	"build_system_choices":
+	[
+	],
+	"build_varint": "",
+	"command_palette":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"Package Control: ",
+				"Package Control: Install Package"
+			]
+		],
+		"width": 0.0
+	},
+	"console":
+	{
+		"height": 64.0,
+		"history":
+		[
+			"import urllib.request,os,hashlib; h = '6f4c264a24d933ce70df5dedcf1dcaee' + 'ebe013ee18cced0ef93d5f746d80ef60'; pf = 'Package Control.sublime-package'; ipp = sublime.installed_packages_path(); urllib.request.install_opener( urllib.request.build_opener( urllib.request.ProxyHandler()) ); by = urllib.request.urlopen( 'http://packagecontrol.io/' + pf.replace(' ', '%20')).read(); dh = hashlib.sha256(by).hexdigest(); print('Error validating download (got %s instead of %s), please try manual install' % (dh, h)) if dh != h else open(os.path.join( ipp, pf), 'wb' ).write(by)"
+		]
+	},
+	"distraction_free":
+	{
+		"menu_visible": true,
+		"show_minimap": false,
+		"show_open_files": false,
+		"show_tabs": false,
+		"side_bar_visible": false,
+		"status_bar_visible": false
+	},
+	"expanded_folders":
+	[
+		"/C/wamp64/www/buyerseller",
+		"/C/wamp64/www/buyerseller/resources",
+		"/C/wamp64/www/buyerseller/resources/views",
+		"/C/wamp64/www/buyerseller/resources/views/fontend",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/layouts",
+		"/C/wamp64/www/buyerseller/routes"
+	],
+	"file_history":
+	[
+		"/C/wamp64/www/fleetcart/.env",
+		"/C/wamp64/www/bangla2z/resources/views/frontend/layouts/app.blade.php",
+		"/C/wamp64/www/fleetcart/resources/views/validate-license.blade.php",
+		"/C/wamp64/www/buyerseller/app/Model/User.php",
+		"/C/wamp64/www/fleetcart/app/Http/Controllers/Main.php",
+		"/C/wamp64/www/buyerseller/app/Repositories/DbUserRepository.php",
+		"/C/wamp64/www/buyerseller/app/User.php",
+		"/C/wamp64/www/buyerseller/vendor/cartalyst/sentinel/src/Users/IlluminateUserRepository.php",
+		"/C/wamp64/www/buyerseller/vendor/cartalyst/sentinel/src/Users/UserRepositoryInterface.php",
+		"/C/wamp64/www/buyerseller/vendor/cartalyst/sentinel/src/Sentinel.php",
+		"/C/wamp64/www/bangla2z/public/frontend/js/vendor/popper.min.js",
+		"/C/wamp64/www/buyerseller/routes/web.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/HomeController.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/SessionsController.php",
+		"/C/wamp64/www/bangla2z/resources/views/layouts/blank.blade.php",
+		"/C/wamp64/www/bangla2z/public/js/demo/ui-alerts.js",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/StandardUser/UsersController.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/dashboard/SupplierController.php",
+		"/C/wamp64/www/bangla2z/resources/views/home_settings/index.blade.php",
+		"/C/wamp64/www/bangla2z/.env",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/supplier/dashboard.blade.php",
+		"/C/wamp64/www/bangla2z/vendor/symfony/http-foundation/Request.php",
+		"/C/wamp64/www/bangla2z/resources/views/installation/step0.blade.php",
+		"/C/wamp64/www/bangla2z/app/Policy.php",
+		"/C/wamp64/www/bangla2z/app/Providers/RouteServiceProvider.php",
+		"/C/wamp64/www/bangla2z/routes/install.php",
+		"/C/wamp64/www/bangla2z/public/js/active-shop.min.js",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/RegistrationController.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Admin/AdminUsersController.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/supplier/product_details_view.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/pages/join_user.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/SettingController.php",
+		"/C/wamp64/www/buyerseller/resources/views/account/payment_history.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/buyer/requested_sample.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/supplier/bdtdc-gold-supplier.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/BuyingRequest/BuyingRequestController.php",
+		"/C/wamp64/www/buyerseller/resources/views/details/mysource_quotations.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/buyer/view_request_sample.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/goldsupplier/create.blade.php",
+		"/C/wamp64/www/buyerseller/vendor/cartalyst/sentinel/src/Users/UserInterface.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/Auth/AuthController.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/layouts/scripts-home.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/master_dynamic.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/layouts/dashboard_daynamic.blade.php",
+		"/C/wamp64/www/buyerseller/vendor/cartalyst/sentinel/src/Checkpoints/ThrottlingException.php",
+		"/C/wamp64/www/buyerseller/app/Exceptions/Handler.php",
+		"/C/wamp64/www/buyerseller/app/Model/BdtdcUserregistrationStep.php",
+		"/C/wamp64/www/buyerseller/vendor/cartalyst/sentinel/src/Users/EloquentUser.php",
+		"/C/wamp64/www/buyerseller/app/Repositories/UserRepositoryInterface.php",
+		"/C/wamp64/www/buyerseller/vendor/cartalyst/sentinel/src/Activations/ActivationRepositoryInterface.php",
+		"/C/wamp64/www/buyerseller/app/Providers/RepositoriesServiceProvider.php",
+		"/C/wamp64/www/buyerseller/app/Providers/AppServiceProvider.php",
+		"/C/wamp64/www/buyerseller/app/Providers/AgentServiceProvider.php",
+		"/C/wamp64/www/buyerseller/vendor/laravel/framework/src/Illuminate/Foundation/Exceptions/Handler.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Admin/AdminController.php",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/myB2B/buying-request.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/category/allcategory.blade.php",
+		"/C/wamp64/www/buyerseller/public/assets/fontend/css/stikynav.css",
+		"/C/wamp64/www/buyerseller/public/assets/fontend/bdtdccss/online-market-place.css",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/modules/module-edit.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/modules/module-lists.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/dashboard/CompanyController.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/get-verified.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/account/email_service.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/account/my_profile.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/layouts/header-dashboard.blade.php",
+		"/C/wamp64/www/buyerseller/public/css/dashboard.css",
+		"/C/wamp64/www/buyerseller/public/css/help.css",
+		"/C/wamp64/www/buyerseller/resources/views/account/upload_photo.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/layouts/account-sideber.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/account/privacy_setting.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/SettingController.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/Qutation/QuotationController.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/template/company.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/BuyingRequest/Qutationlist.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/BuyingRequest/quote_view.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/StripePaymentController.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/template/trade_capacity.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/template/production_capacity.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/dashboard/BuyerController.php",
+		"/C/wamp64/www/buyerseller/.env",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/template/profile.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/TemplateController.php",
+		"/C/wamp64/www/buyerseller/resources/views/error.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/error/bdtdc-agencies.blade.php",
+		"/C/wamp64/www/buyerseller/public/assets/fontend/bdtdccss/product-wholesale.css",
+		"/C/wamp64/www/buyerseller/resources/views/errors/bdtdc-agencies.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/layouts/notify.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/list_users.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/layouts/sidebar.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/layouts/breadcrumb.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/layouts/dashboard.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Admin/ProductController.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/GoldSupplierController.php",
+		"/C/wamp64/www/buyerseller/app/Model/BdtdcSupplierInfo.php",
+		"/C/wamp64/www/buyerseller/resources/views/protected/admin/edit_user.blade.php",
+		"/C/wamp64/www/buyerseller/app/Model/Activation.php",
+		"/C/wamp64/www/buyerseller/app/Http/Requests/AdminUsersEditFormRequest.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/Quotation/quote_list.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/BuyerChannel/BuyerChannelController.php",
+		"/C/wamp64/www/buyerseller/app/Model/BdtdcInqueryMessage.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/BuyerChannel/bdtdc-source.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/contents_view/marketing-site.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/template/header_information.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/AboutusController.php",
+		"/C/wamp64/www/buyerseller/resources/views/contents_view/success-stories.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/contents_view/membership.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/sitemap/sitemap.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/contents_view/sustainable_manufacturing.blade.php",
+		"/C/wamp64/www/buyerseller/public/assets/fontend/bdtdccss/seller_channel.css",
+		"/C/wamp64/www/buyerseller/resources/views/contents_view/sustainable-manufacturing-product.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/Bdsource/BdsourceController.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/buyer/bdtdc_sourcing.blade.php",
+		"/C/wamp64/www/buyerseller/public/css/wholesale-user-guide.css",
+		"/C/wamp64/www/buyerseller/resources/views/contents_view/wholesale-user-guide.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/ServiceChannel/ServiceChannelController.php",
+		"/C/wamp64/www/buyerseller/resources/views/contents_view/sourcing_view.blade.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/StandardUser/StandardUserController.php",
+		"/C/wamp64/www/buyerseller/app/Model/BdtdcSupplierInvoice.php",
+		"/C/wamp64/www/buyerseller/app/Model/OrderPaymentHistory.php",
+		"/C/wamp64/www/buyerseller/app/Http/Controllers/Front/Bdsource/OrderController.php",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/supplier/order-invoice.blade.php",
+		"/C/wamp64/www/buyerseller/public/css/home-page.css",
+		"/C/wamp64/www/buyerseller/public/css/main-category.css",
+		"/C/wamp64/www/buyerseller/public/css/special-page.css",
+		"/C/wamp64/www/buyerseller/public/css/about-page.css",
+		"/C/wamp64/www/buyerseller/resources/views/fontend/layouts/topbar-home.blade.php",
+		"/C/wamp64/www/buyerseller/resources/views/master.blade.php"
+	],
+	"find":
+	{
+		"height": 34.0
+	},
+	"find_in_files":
+	{
+		"height": 122.0,
+		"where_history":
+		[
+			"C:\\wamp64\\www\\fleetcart",
+			"C:\\wamp64\\www\\bangla2z",
+			"C:\\wamp64\\www\\buyerseller\\app\\Http\\Controllers",
+			"C:\\wamp64\\www\\bangla2z",
+			"C:\\wamp64\\www\\buyerseller",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller\\app\\Http\\Controllers",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller\\resources\\views",
+			"C:\\wamp64\\www\\buyerseller\\resources\\views\\fontend\\template",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller\\app\\Model",
+			"C:\\wamp64\\www\\buyerseller\\public\\assets",
+			"C:\\wamp64\\www\\ekcelerate\\application",
+			"C:\\wamp64\\www\\ekcelerate",
+			"C:\\wamp64\\www\\fleetcart",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\ecom",
+			"C:\\wamp64\\www\\buyerseller\\resources\\views",
+			"C:\\wamp64\\www\\buyerseller\\resources\\views\\fontend",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller\\app",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller\\resources\\views\\fontend\\conversation_window",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller\\app\\Http\\Controllers",
+			"C:\\wamp64\\www\\buyerseller",
+			"C:\\wamp64\\www\\buyerseller\\public\\assets",
+			"C:\\wamp64\\www\\bdtdc",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller\\public\\assets",
+			"C:\\wamp64\\www\\buyerseller",
+			"C:\\wamp64\\www\\buyerseller\\public\\assets",
+			"C:\\wamp64\\www\\buyerseller\\resources\\views\\fontend\\layouts",
+			"C:\\wamp64\\www\\buyerseller",
+			"C:\\wamp64\\www\\buyerseller\\public",
+			"C:\\wamp64\\www\\buyerseller"
+		]
+	},
+	"find_state":
+	{
+		"case_sensitive": false,
+		"find_history":
+		[
+			"submit_basic_info",
+			"submit_trade_info",
+			"user/post_company_info",
+			"sessions",
+			"login",
+			"Sorry, This is not a valid purchase code",
+			"activate_product",
+			"active",
+			"alert",
+			"alert(",
+			"alert('",
+			".com",
+			"1557637725438",
+			"check_l",
+			"index.php",
+			"alert",
+			"URL",
+			"https",
+			"https:",
+			"https://activeitzone.com/check/index.php/home",
+			"active",
+			"larashop",
+			"check",
+			".com",
+			"activeitzone",
+			"https://activeitzone.com/check/",
+			"The Software",
+			"activeitzone.com",
+			"year_of_exporting",
+			"example",
+			"activeitzone.com/check/larashop.js",
+			"larashop",
+			"The Software is Unactivated",
+			"registered with",
+			"Domain not registered with",
+			"login",
+			"user_registration_form",
+			"create",
+			"user_id",
+			"create",
+			"register",
+			"registerAndActivate",
+			"Whoops, something went wrong",
+			"catch",
+			"BdtdcCompany",
+			"submit_factory_info",
+			"facto",
+			"mysource/online-order/inq",
+			"bdtdc.com",
+			"bdtdc",
+			"or '",
+			"shipping",
+			".td-cont{",
+			"affix-top",
+			"td",
+			"company/get-verified",
+			"veri",
+			"or '",
+			"profile_image",
+			"navigation-menu-manager",
+			"bdtdc_goldsupplier",
+			"bdtdc-gold-supplier",
+			"total_new_order_wb",
+			"factory_info",
+			"BdtdcHomeProduct",
+			"product_id",
+			"membership_duration",
+			"membership_duration\\",
+			"membership_duration",
+			"supplier/section_create",
+			"template_setting",
+			"rander_dashboard_section",
+			"$e",
+			"dashboard/",
+			"dashboard/{section}",
+			"dashboard/product",
+			"banner-agences",
+			"resources/",
+			"or '",
+			"submit_basic_info",
+			"source",
+			"visit-link",
+			"BuyerSeller.com",
+			"height:16px;",
+			"maxcdn.bootstrapcdn.com",
+			"images/100-576x400.png",
+			"images/100-0.576x40png",
+			"submit_basic_info",
+			"registration.store",
+			"contact",
+			"main_category_products_arr",
+			"pay-order-payment",
+			"order->",
+			"BdtdcProduct",
+			"status",
+			"foreach",
+			"order-payment",
+			"supplier_package_name",
+			"order-payment",
+			"search",
+			"checkout",
+			"Front\\UserEnd\\ProductController@category_productList",
+			"GoldSupplierController.php",
+			"profile_picture",
+			"change_avatar",
+			"supplier_profile_info",
+			"change_avatar",
+			"required|",
+			"you are not logged",
+			"profile/template_",
+			"user/upgrade",
+			"div class=\"col-sm-3\" style=\"border-right:1px solid #DDD;height: 62px;\"",
+			"stock-banner",
+			"product-img",
+			"navbar-collapse",
+			"showall",
+			"bdtdc_template_sections",
+			"user_registration_form",
+			"get-quotations",
+			"submit_trade_info",
+			"submit_basic_info",
+			"add_certification",
+			"submit_basic_info",
+			"company_tab_info_submitter",
+			"submitted_form",
+			"trade_info",
+			"add_certification",
+			"main"
+		],
+		"highlight": true,
+		"in_selection": false,
+		"preserve_case": false,
+		"regex": false,
+		"replace_history":
+		[
+		],
+		"reverse": false,
+		"show_context": true,
+		"use_buffer2": true,
+		"whole_word": false,
+		"wrap": true
+	},
+	"groups":
+	[
+		{
+			"selected": 5,
+			"sheets":
+			[
+				{
+					"buffer": 0,
+					"file": "app/Http/Controllers/SessionsController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 10055,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								6750,
+								6750
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 4315.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 5,
+					"type": "text"
+				},
+				{
+					"buffer": 1,
+					"file": "routes/web.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 61570,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								705,
+								705
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 3,
+					"type": "text"
+				},
+				{
+					"buffer": 2,
+					"file": "app/Http/Controllers/StandardUser/UsersController.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 44195,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								29588,
+								29588
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"spell_check": true,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 18240.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 2,
+					"type": "text"
+				},
+				{
+					"buffer": 3,
+					"file": "resources/views/fontend/master-login.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 18110,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 6,
+					"type": "text"
+				},
+				{
+					"buffer": 4,
+					"file": "resources/views/fontend/layouts/dashboard-home.blade.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 6858,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								665,
+								670
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 3,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 3150.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 1,
+					"type": "text"
+				},
+				{
+					"buffer": 5,
+					"file": "resources/views/fontend/layouts/dashboard-latest.blade.php",
+					"semi_transient": true,
+					"settings":
+					{
+						"buffer_size": 5785,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1108,
+								1108
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/Laravel Blade Highlighter/blade.sublime-syntax",
+							"tab_size": 2,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 0,
+					"type": "text"
+				},
+				{
+					"buffer": 6,
+					"file": "app/Http/Middleware/SentinelSupplier.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1139,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 7,
+					"type": "text"
+				},
+				{
+					"buffer": 7,
+					"file": "app/Model/User.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1800,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								1668,
+								1797
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 684.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 4,
+					"type": "text"
+				},
+				{
+					"buffer": 8,
+					"file": "app/Http/Middleware/SentinelRedirectIfAuthenticated.php",
+					"semi_transient": false,
+					"settings":
+					{
+						"buffer_size": 1574,
+						"regions":
+						{
+						},
+						"selection":
+						[
+							[
+								0,
+								0
+							]
+						],
+						"settings":
+						{
+							"incomplete_sync": null,
+							"remote_loading": false,
+							"synced": false,
+							"syntax": "Packages/PHP/PHP.sublime-syntax",
+							"tab_size": 4,
+							"translate_tabs_to_spaces": true
+						},
+						"translation.x": 0.0,
+						"translation.y": 0.0,
+						"zoom_level": 1.0
+					},
+					"stack_index": 8,
+					"type": "text"
+				}
+			]
+		}
+	],
+	"incremental_find":
+	{
+		"height": 34.0
+	},
+	"input":
+	{
+		"height": 46.0
+	},
+	"layout":
+	{
+		"cells":
+		[
+			[
+				0,
+				0,
+				1,
+				1
+			]
+		],
+		"cols":
+		[
+			0.0,
+			1.0
+		],
+		"rows":
+		[
+			0.0,
+			1.0
+		]
+	},
+	"menu_visible": true,
+	"output.find_results":
+	{
+		"height": 0.0
+	},
+	"output.sftp":
+	{
+		"height": 0.0
+	},
+	"pinned_build_system": "",
+	"project": "bs.sublime-project",
+	"replace":
+	{
+		"height": 64.0
+	},
+	"save_all_on_build": true,
+	"select_file":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"validate-license",
+				"fleetcart\\resources\\views\\validate-license.blade.php"
+			],
+			[
+				"frontend/js/vendor/popper.min.js",
+				"bangla2z\\public\\frontend\\js\\vendor\\popper.min.js"
+			],
+			[
+				"larashop.js",
+				"bangla2z\\public\\frontend\\js\\active-shop.js"
+			],
+			[
+				"layoutsblank",
+				"bangla2z\\resources\\views\\layouts\\blank.blade.php"
+			],
+			[
+				"installationstep0",
+				"bangla2z\\resources\\views\\installation\\step0.blade.php"
+			],
+			[
+				"routes/install.php",
+				"bangla2z\\routes\\install.php"
+			],
+			[
+				"app/Providers/RouteServiceProvider.php",
+				"bangla2z\\app\\Providers\\RouteServiceProvider.php"
+			],
+			[
+				"js/demo/ui-alerts.js",
+				"bangla2z\\public\\js\\demo\\ui-alerts.js"
+			],
+			[
+				"s/active-shop.min.js",
+				"bangla2z\\public\\js\\active-shop.min.js"
+			],
+			[
+				"dashboard_daynamic",
+				"buyerseller\\resources\\views\\fontend\\layouts\\dashboard_daynamic.blade.php"
+			],
+			[
+				"master_dynamic",
+				"buyerseller\\resources\\views\\fontend\\master_dynamic.blade.php"
+			],
+			[
+				"ountpayment_history",
+				"buyerseller\\resources\\views\\account\\payment_history.blade.php"
+			],
+			[
+				"view_request_sample",
+				"buyerseller\\resources\\views\\fontend\\buyer\\view_request_sample.blade.php"
+			],
+			[
+				"mysource_quotations",
+				"buyerseller\\resources\\views\\details\\mysource_quotations.blade.php"
+			],
+			[
+				"requested_sample",
+				"buyerseller\\resources\\views\\fontend\\buyer\\requested_sample.blade.php"
+			],
+			[
+				"css/stikynav.css",
+				"buyerseller\\public\\assets\\fontend\\css\\stikynav.css"
+			],
+			[
+				"online-market-place.css",
+				"buyerseller\\public\\assets\\fontend\\bdtdccss\\online-market-place.css"
+			],
+			[
+				"get-verified",
+				"buyerseller\\resources\\views\\fontend\\get-verified.blade.php"
+			],
+			[
+				"email_service",
+				"buyerseller\\resources\\views\\account\\email_service.blade.php"
+			],
+			[
+				"my_profile",
+				"buyerseller\\resources\\views\\account\\my_profile.blade.php"
+			],
+			[
+				"privacy_setting",
+				"buyerseller\\resources\\views\\account\\privacy_setting.blade.php"
+			],
+			[
+				"accountupload_photo",
+				"buyerseller\\resources\\views\\account\\upload_photo.blade.php"
+			],
+			[
+				"SettingController",
+				"buyerseller\\app\\Http\\Controllers\\SettingController.php"
+			],
+			[
+				"company.blade.php",
+				"buyerseller\\resources\\views\\fontend\\template\\company.blade.php"
+			],
+			[
+				"Qutationlist",
+				"buyerseller\\resources\\views\\fontend\\BuyingRequest\\Qutationlist.blade.php"
+			],
+			[
+				"BuyingRequestquote_view",
+				"buyerseller\\resources\\views\\fontend\\BuyingRequest\\quote_view.blade.php"
+			],
+			[
+				"production_capacity",
+				"buyerseller\\resources\\views\\fontend\\template\\production_capacity.blade.php"
+			],
+			[
+				"trade_capacity",
+				"buyerseller\\resources\\views\\fontend\\template\\trade_capacity.blade.php"
+			],
+			[
+				"supplierdashboard",
+				"buyerseller\\resources\\views\\fontend\\supplier\\dashboard.blade.php"
+			],
+			[
+				"\\template\\profile.blade.ph",
+				"buyerseller\\resources\\views\\fontend\\template\\profile.blade.php"
+			],
+			[
+				"BdtdcSupplierInfo",
+				"buyerseller\\app\\Model\\BdtdcSupplierInfo.php"
+			],
+			[
+				"GoldSupplierController.php",
+				"buyerseller\\app\\Http\\Controllers\\Front\\GoldSupplierController.php"
+			],
+			[
+				"edit_user",
+				"buyerseller\\resources\\views\\protected\\admin\\edit_user.blade.php"
+			],
+			[
+				"Quotation/quote_list",
+				"buyerseller\\resources\\views\\fontend\\Quotation\\quote_list.blade.php"
+			],
+			[
+				"header_information.blade.php",
+				"buyerseller\\resources\\views\\fontend\\template\\header_information.blade.php"
+			],
+			[
+				"bdtdc-source",
+				"buyerseller\\resources\\views\\fontend\\BuyerChannel\\bdtdc-source.blade.php"
+			],
+			[
+				"contents_view/success-stories",
+				"buyerseller\\resources\\views\\contents_view\\success-stories.blade.php"
+			],
+			[
+				"bdtdc_sourcing",
+				"buyerseller\\resources\\views\\fontend\\buyer\\bdtdc_sourcing.blade.php"
+			],
+			[
+				"wholesale-user-guide",
+				"buyerseller\\resources\\views\\contents_view\\wholesale-user-guide.blade.php"
+			],
+			[
+				"fontend/template/profile.blade.php",
+				"buyerseller\\resources\\views\\fontend\\template\\profile.blade.php"
+			],
+			[
+				"contents_view/sourcing_view",
+				"buyerseller\\resources\\views\\contents_view\\sourcing_view.blade.php"
+			],
+			[
+				"Front\\ServiceChannel\\ServiceChannelController",
+				"buyerseller\\app\\Http\\Controllers\\Front\\ServiceChannel\\ServiceChannelController.php"
+			],
+			[
+				"StandardUser\\StandardUserController.php",
+				"buyerseller\\app\\Http\\Controllers\\StandardUser\\StandardUserController.php"
+			],
+			[
+				"help.css",
+				"buyerseller\\public\\css\\help.css"
+			],
+			[
+				"BdtdcOrder",
+				"buyerseller\\app\\Model\\BdtdcOrder.php"
+			],
+			[
+				"BdtdcSupplierInvoice",
+				"buyerseller\\app\\Model\\BdtdcSupplierInvoice.php"
+			],
+			[
+				"BdtdcS",
+				"buyerseller\\app\\Model\\BdtdcSupplierInfo.php"
+			],
+			[
+				"scripts-notification",
+				"buyerseller\\resources\\views\\fontend\\layouts\\scripts-notification.blade.php"
+			],
+			[
+				"BdtdcProduct",
+				"buyerseller\\app\\Model\\BdtdcProduct.php"
+			],
+			[
+				"BdtdcOrderDetails",
+				"buyerseller\\app\\Model\\BdtdcOrderDetails.php"
+			],
+			[
+				"order_details",
+				"buyerseller\\resources\\views\\details\\order_details.blade.php"
+			],
+			[
+				"Front/dashboard/SupplierController.php",
+				"buyerseller\\app\\Http\\Controllers\\Front\\dashboard\\SupplierController.php"
+			],
+			[
+				"OrderP",
+				"buyerseller\\app\\Model\\OrderPaymentHistory.php"
+			],
+			[
+				"details/order_details",
+				"buyerseller\\resources\\views\\details\\order_details.blade.php"
+			],
+			[
+				"goldsupplier/create",
+				"buyerseller\\resources\\views\\goldsupplier\\create.blade.php"
+			],
+			[
+				"place-oreder.blade.php",
+				"buyerseller\\resources\\views\\details\\place-oreder.blade.php"
+			],
+			[
+				"category/product-view",
+				"buyerseller\\resources\\views\\fontend\\category\\product-view.blade.php"
+			],
+			[
+				"BuyerChannel/get_qutations",
+				"buyerseller\\resources\\views\\fontend\\BuyerChannel\\get_qutations.blade.php"
+			],
+			[
+				"payment-success",
+				"buyerseller\\resources\\views\\goldsupplier\\payment-success.blade.php"
+			],
+			[
+				"contents_view/special-product-page",
+				"buyerseller\\resources\\views\\contents_view\\special-product-page.blade.php"
+			],
+			[
+				"buyer/buyer-choise",
+				"buyerseller\\resources\\views\\fontend\\buyer\\buyer-choise.blade.php"
+			],
+			[
+				"check_install.txt",
+				"ekcelerate\\installer\\check_install.txt"
+			],
+			[
+				"BdtdcCompany",
+				"buyerseller\\app\\Model\\BdtdcCompany.php"
+			],
+			[
+				"bdtdcPrductto",
+				"buyerseller\\app\\Model\\BdtdcProductToCategory.php"
+			],
+			[
+				"fontend/layouts/search_result_aside",
+				"buyerseller\\resources\\views\\fontend\\layouts\\search_result_aside.blade.php"
+			],
+			[
+				"supplier/search_product_list",
+				"buyerseller\\resources\\views\\fontend\\supplier\\search_product_list.blade.php"
+			],
+			[
+				"bangladeshi_garments",
+				"buyerseller\\resources\\views\\bangladeshi_garments\\bangladeshi_garments.blade.php"
+			],
+			[
+				"product_details_view",
+				"buyerseller\\resources\\views\\fontend\\supplier\\product_details_view.blade.php"
+			],
+			[
+				"wholesale/home",
+				"buyerseller\\resources\\views\\pages\\wholesale\\home.blade.php"
+			],
+			[
+				"Bdsource/home",
+				"buyerseller\\resources\\views\\Bdsource\\home.blade.php"
+			],
+			[
+				"bdtdc_sourcing_details",
+				"buyerseller\\resources\\views\\fontend\\buyer\\bdtdc_sourcing_details.blade.php"
+			],
+			[
+				"BdtdcProductToCategory",
+				"buyerseller\\app\\Model\\BdtdcProductToCategory.php"
+			],
+			[
+				"selected supplier/home",
+				"buyerseller\\resources\\views\\pages\\selected supplier\\home.blade.php"
+			],
+			[
+				"faq/bdtdc-faq",
+				"buyerseller\\resources\\views\\faq\\bdtdc-faq.blade.php"
+			],
+			[
+				"main_category_products",
+				"buyerseller\\resources\\views\\fontend\\category\\main_category_products.blade.php"
+			],
+			[
+				"App\\Http\\Controllers\\Front\\UserEnd\\CategoriesController",
+				"buyerseller\\app\\Http\\Controllers\\Front\\UserEnd\\CategoriesController.php"
+			],
+			[
+				"category/allcategory",
+				"buyerseller\\resources\\views\\fontend\\category\\allcategory.blade.php"
+			],
+			[
+				"details/order-list",
+				"buyerseller\\resources\\views\\details\\order-list.blade.php"
+			],
+			[
+				"order-list",
+				"buyerseller\\resources\\views\\details\\order-list.blade.php"
+			],
+			[
+				"supplier/product-invoice",
+				"buyerseller\\resources\\views\\fontend\\supplier\\product-invoice.blade.php"
+			],
+			[
+				"market-individual-product",
+				"resources\\views\\contents_view\\market-individual-product.blade.php"
+			],
+			[
+				"learn-join-bdtdc",
+				"resources\\views\\fontend\\footerpage\\learn-join-bdtdc.blade.php"
+			],
+			[
+				"bdtdc-user-agreement",
+				"resources\\views\\fontend\\footerpage\\bdtdc-user-agreement.blade.php"
+			],
+			[
+				"international-buyer-training",
+				"resources\\views\\fontend\\footerpage\\international-buyer-training.blade.php"
+			],
+			[
+				"trade_answers",
+				"resources\\views\\fontend\\trade\\trade_answers.blade.php"
+			],
+			[
+				"trade_answers_success",
+				"resources\\views\\fontend\\trade\\trade_answers_success.blade.php"
+			],
+			[
+				"place-oreder",
+				"resources\\views\\details\\place-oreder.blade.php"
+			],
+			[
+				"search_product_list",
+				"buyerseller\\resources\\views\\fontend\\supplier\\search_product_list.blade.php"
+			],
+			[
+				"search_product",
+				"buyerseller\\resources\\views\\fontend\\supplier\\search_product_list.blade.php"
+			],
+			[
+				"product-invoice",
+				"buyersellerasia\\resources\\views\\fontend\\supplier\\product-invoice.blade.php"
+			],
+			[
+				"search_supplier_list",
+				"buyerseller\\resources\\views\\fontend\\supplier\\search_supplier_list.blade.php"
+			],
+			[
+				"payment",
+				"buyerseller\\resources\\views\\account\\payment_history.blade.php"
+			],
+			[
+				"product-gallery-bdtdc",
+				"buyerseller\\resources\\views\\fontend\\buyer\\product-gallery-bdtdc.blade.php"
+			],
+			[
+				"details/trade",
+				"buyerseller\\resources\\views\\details\\trade.blade.php"
+			],
+			[
+				"StripePaymentController",
+				"buyerseller\\app\\Http\\Controllers\\StripePaymentController.php"
+			],
+			[
+				"BdtdcTradeshow",
+				"buyerseller\\app\\Model\\BdtdcTradeshow.php"
+			],
+			[
+				"add_trade",
+				"buyerseller\\resources\\views\\protected\\admin\\trade\\add_trade.blade.php"
+			],
+			[
+				"BdtdcSupplierPackageD",
+				"buyerseller\\app\\Model\\BdtdcSupplierPackageDescription.php"
+			],
+			[
+				"bdtdcC",
+				"buyerseller\\app\\Model\\BdtdcCompany.php"
+			],
+			[
+				"success.css",
+				"buyerseller\\public\\assets\\fontend\\page\\success.css"
+			],
+			[
+				"trade-buyer-protection-backend",
+				"buyerseller\\resources\\views\\fontend\\BuyerChannel\\trade-buyer-protection-backend.blade.php"
+			],
+			[
+				"trade-buyer-protection",
+				"buyerseller\\resources\\views\\fontend\\BuyerChannel\\trade-buyer-protection.blade.php"
+			],
+			[
+				"dashboard-aside",
+				"buyerseller\\resources\\views\\fontend\\layouts\\dashboard-aside.blade.php"
+			],
+			[
+				"payment_history",
+				"buyerseller\\resources\\views\\account\\payment_history.blade.php"
+			],
+			[
+				"Front\\HomeController",
+				"buyerseller\\app\\Http\\Controllers\\Front\\HomeController.php"
+			],
+			[
+				"fontend/index",
+				"buyerseller\\resources\\views\\fontend\\index.blade.php"
+			],
+			[
+				"Admin\\PageContentController",
+				"buyerseller\\app\\Http\\Controllers\\Admin\\PageContentController.php"
+			],
+			[
+				"media-room-top-stories",
+				"buyerseller\\resources\\views\\contents_view\\media-room-top-stories.blade.php"
+			],
+			[
+				"news_channel9",
+				"buyerseller\\resources\\views\\contents_view\\news_channel9.blade.php"
+			],
+			[
+				"bdtdc-daily-star",
+				"buyerseller\\resources\\views\\contents_view\\bdtdc-daily-star.blade.php"
+			],
+			[
+				"Admin\\PageCategoriesController",
+				"buyerseller\\app\\Http\\Controllers\\Admin\\PageCategoriesController.php"
+			],
+			[
+				"main.css",
+				"buyerseller\\public\\assets\\dashboard\\css\\main.css"
+			],
+			[
+				"contents_view/home",
+				"buyerseller\\resources\\views\\contents_view\\home.blade.php"
+			],
+			[
+				"buyer-protection.css",
+				"buyerseller\\public\\css\\trade-services\\buyer-protection.css"
+			],
+			[
+				"media-news-bdtdc",
+				"buyerseller\\resources\\views\\contents_view\\media-news-bdtdc.blade.php"
+			],
+			[
+				"quotations_form",
+				"buyerseller\\resources\\views\\fontend\\BuyerChannel\\quotations_form.blade.php"
+			],
+			[
+				"sidebar_wholesale",
+				"buyerseller\\resources\\views\\fontend\\layouts\\sidebar_wholesale.blade.php"
+			],
+			[
+				"contact_message_success",
+				"buyerseller\\resources\\views\\details\\contact_message_success.blade.php"
+			],
+			[
+				"contact_message",
+				"buyerseller\\resources\\views\\details\\contact_message.blade.php"
+			],
+			[
+				"Pollution-&-Poverty",
+				"buyerseller\\resources\\views\\contents_view\\Pollution-&-Poverty.blade.php"
+			],
+			[
+				"components.c",
+				"buyerseller\\public\\assets\\global\\css\\components.css"
+			],
+			[
+				"layout.css",
+				"buyerseller\\public\\assets\\admin\\layout2\\css\\layout.css"
+			],
+			[
+				"Illuminate\\Foundation\\Auth\\ResetsPasswords",
+				"buyerseller\\vendor\\laravel\\framework\\src\\Illuminate\\Foundation\\Auth\\ResetsPasswords.php"
+			],
+			[
+				"Illuminate\\Support\\Facades\\Password",
+				"buyerseller\\vendor\\laravel\\framework\\src\\Illuminate\\Support\\Facades\\Password.php"
+			],
+			[
+				"reset.blade.php",
+				"buyerseller\\resources\\views\\password\\reset.blade.php"
+			],
+			[
+				"our-office",
+				"buyerseller\\resources\\views\\contents_view\\our-office.blade.php"
+			],
+			[
+				"jquery.bxslider.min",
+				"buyerseller\\public\\assets\\fontend\\js\\jquery.bxslider.min.js"
+			],
+			[
+				"inquiry/manage-inquiry",
+				"buyerseller\\resources\\views\\protected\\admin\\inquiry\\manage-inquiry.blade.php"
+			]
+		],
+		"width": 0.0
+	},
+	"select_project":
+	{
+		"height": 500.0,
+		"last_filter": "",
+		"selected_items":
+		[
+			[
+				"",
+				"C:\\wamp64\\www\\buyerseller\\bs.sublime-project"
+			]
+		],
+		"width": 380.0
+	},
+	"select_symbol":
+	{
+		"height": 0.0,
+		"last_filter": "",
+		"selected_items":
+		[
+		],
+		"width": 0.0
+	},
+	"selected_group": 0,
+	"settings":
+	{
+	},
+	"show_minimap": true,
+	"show_open_files": false,
+	"show_tabs": true,
+	"side_bar_visible": true,
+	"side_bar_width": 333.0,
+	"status_bar_visible": true,
+	"template_settings":
+	{
+	}
+}

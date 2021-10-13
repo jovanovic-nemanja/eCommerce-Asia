@@ -1,0 +1,1198 @@
+/* general */
+.nextSecBtn {
+  background: url(../images/btn_scroll.png) no-repeat;
+  position: fixed;
+  width: 44px;
+  height: 43px;
+  bottom: 40px;
+  right: 130px;
+  z-index: 400;
+  display: none;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none; }
+  .nextSecBtn:hover {
+    background-position: -44px 0; }
+  .nextSecBtn.active {
+    display: inline-block; }
+
+.infoBox {
+  margin: 135px 0 0 270px;
+  width: 550px;
+  font-size: 15px;
+  line-height: 20px;
+  position: relative; }
+  .infoBox .title {
+    margin: 2.5em 0 1em; }
+    .infoBox .title.opening {
+      border-left: 3px solid #f47820;
+      padding: 4px 10px;
+      margin-left: -14px; }
+  .infoBox .hlText {
+    color: white;
+    font-size: 27px;
+    font-style: italic; }
+    .infoBox .hlText .num {
+      font-size: 30px; }
+  .infoBox p {
+    margin-bottom: 0.5em; }
+
+.BLK3 .infoBox {
+  padding-bottom: 26px; }
+
+.BLK4 .infoBox {
+  padding-bottom: 37px; }
+
+.listTbl {
+  width: 100%; }
+  .listTbl li {
+    display: block; }
+  .listTbl > li {
+    display: block;
+    background: none;
+    border-bottom: 1px solid #a9a9a9;
+    -webkit-transition: all 0.3s ease;
+    -moz-transition: all 0.3s ease;
+    -ms-transition: all 0.3s ease;
+    -o-transition: all 0.3s ease;
+    transition: all 0.3s ease; }
+    .listTbl > li:hover > a {
+      color: white;
+      background: #f47820; }
+    .listTbl > li > a {
+      color: #58595B;
+      display: block;
+      padding: 10px;
+      font-weight: bold; }
+  .listTbl .detailBox {
+    padding: 5px 10px;
+    display: none; }
+  .listTbl > li:last-child {
+    border-bottom: none; }
+
+.greyBg {
+  background: url(../images/bg-pixed-black-grey.png) repeat;
+  padding: 5px 40px;
+  color: white;
+  padding: 5px 40px 22px; }
+
+.bulletOrange {
+  list-style-image: url("../images/bullet-orange.png");
+  display: block; }
+  .bulletOrange li {
+    list-style: inherit;
+    display: list-item; }
+
+.gridList {
+  display: block; }
+  .gridList li {
+    display: inline-block;
+    width: 270px; }
+    .gridList li.highlight {
+      text-decoration: underline;
+      display: block; }
+    .gridList li a {
+      color: white; }
+
+.accordion {
+   /*  .point{
+            color: #f47820;
+            font-weight: bold;
+
+            &:hover {
+                color:#878787;
+            }
+        } */ }
+  .accordion h3 {
+    text-transform: uppercase;
+    color: #FFF;
+    font-size: 18px;
+    padding: 6px 10px;
+    background: #848386;
+    margin-bottom: 1px;
+    cursor: pointer; }
+    .accordion h3.ui-accordion-header-active {
+      background: #f47820; }
+    .accordion h3 .ui-icon {
+      width: 23px;
+      height: 23px;
+      float: right; }
+    .accordion h3 .icon-plus {
+      background: url(../images/ico_content_toggle.png) no-repeat 0 -23px; }
+    .accordion h3 .icon-minus {
+      background: url(../images/ico_content_toggle.png) no-repeat 0 0; }
+  .accordion .ui-accordion-content a {
+    color: #F47820; }
+    .accordion .ui-accordion-content a:hover {
+      color: #878787; }
+  .accordion .ui-accordion-content ul, .accordion .ui-accordion-content ol {
+    margin-left: 1em; }
+    .accordion .ui-accordion-content ul li, .accordion .ui-accordion-content ol li {
+      list-style-type: disc;
+      display: list-item !important; }
+    .accordion .ui-accordion-content ul li > a, .accordion .ui-accordion-content ol li > a {
+      color: #878787; }
+      .accordion .ui-accordion-content ul li > a:hover, .accordion .ui-accordion-content ol li > a:hover {
+        color: #F47820; }
+  .accordion > div {
+    background: #eaeaea;
+    padding: 10px 15px; }
+    .accordion > div ul li {
+      display: block; }
+
+/* blk 2 */
+.BLK2 {
+  /* section slider */
+  /* .linkArrow{
+      @include boldOrg();
+  } */ }
+  .BLK2 .slideControlBar {
+    background: #FFFFBA;
+    z-index: 1;
+    height: 20px !important;
+    position: absolute; }
+  .BLK2 .slide-wrapper {
+    position: relative;
+    left: 0; }
+    .BLK2 .slide-wrapper .slide {
+      display: inline-block;
+      float: left;
+      background-position: center;
+      background-repeat: no-repeat;
+      position: relative;
+      background-size: cover !important; }
+  .BLK2 .videoInfo {
+    vertical-align: middle; }
+    .BLK2 .videoInfo #mvImg {
+      width: 100%;
+      height: 128px; }
+    .BLK2 .videoInfo a {
+      color: #F47820; }
+      .BLK2 .videoInfo a:hover {
+        color: #878787; }
+    .BLK2 .videoInfo .content {
+      vertical-align: middle;
+      padding: 0 20px; }
+      .BLK2 .videoInfo .content .tag {
+        color: #58595b; }
+        .BLK2 .videoInfo .content .tag a {
+          color: #58595b; }
+    .BLK2 .videoInfo .thumb {
+      width: 225px;
+      height: 128px;
+      display: inline-block;
+      position: relative; }
+      .BLK2 .videoInfo .thumb .playIcon {
+        background: url(../images/icon-video-play.png) no-repeat;
+        display: block;
+        width: 61px;
+        height: 60px;
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        margin-left: -30.5px;
+        margin-top: -30px;
+        opacity: 0.8;
+        filter: alpha(opacity=80); }
+      .BLK2 .videoInfo .thumb:hover .playIcon {
+        background: url(../images/icon-video-play.png) no-repeat -61px 0; }
+  .BLK2 .quoteTag {
+    position: absolute;
+    right: 0;
+    width: 35%;
+    max-width: 580px;
+    min-width: 350px;
+    top: 135px;
+    right: 5%; }
+  .BLK2 .quoteTagText {
+    position: absolute;
+    right: 0;
+    width: 32%;
+    min-width: 350px;
+    top: 135px;
+    right: 10%;
+    font-size: 20px;
+    max-width: 750px;
+    line-height: 28px; }
+    .BLK2 .quoteTagText td {
+      vertical-align: top; }
+    .BLK2 .quoteTagText .pic {
+      padding-right: 20px; }
+    .BLK2 .quoteTagText .mainText {
+      font-size: 1em;
+      font-style: italic; }
+    .BLK2 .quoteTagText .minText {
+      font-size: 0.65em;
+      margin-top: 0.5em;
+      line-height: 20px; }
+
+.tc .BLK2 .quoteTagText .mainText, .sc .BLK2 .quoteTagText .mainText {
+  font-style: normal; }
+
+.twrap {
+  width: 400px; }
+
+.whatWeDo {
+  margin: 2em 0 1em;
+  width: 100%; }
+  .whatWeDo .titleText {
+    float: left; }
+
+.findMore {
+  color: #F47820;
+  font-weight: bold; }
+  .findMore:hover {
+    color: #878787; }
+
+.galleryTag li, .netWorkTag li {
+  font-size: 15px;
+  border: 2px solid #aeaeae;
+  margin: 0 3px 4px 0;
+  cursor: pointer;
+  background: url(../images/bg-pixed-white-trans.png) repeat; }
+  .galleryTag li > a, .netWorkTag li > a {
+    padding: 1px 15px;
+    display: block; }
+  .galleryTag li:hover, .netWorkTag li:hover {
+    color: #FFF;
+    background: #f47820;
+    border-color: #f47820; }
+    .galleryTag li:hover > a, .netWorkTag li:hover > a {
+      color: #FFF; }
+
+.netWorkTag li {
+  background: none; }
+
+/* .showcase .quoteTag {
+    right: 120px !important;
+    top: 135px !important;
+ }
+ */
+/* BLK3 */
+h1.title {
+  text-align: center;
+  width: 100%; }
+
+.magWarp {
+  width: 870px;
+  height: 580px;
+  position: relative;
+  margin: 120px auto; }
+  .magWarp .jcarousel-control-prev {
+    position: absolute;
+    left: -60px;
+    top: 234px;
+    background: url(../images/ico_btn_large_nav.png) no-repeat 0 0;
+    width: 36px;
+    height: 115px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none; }
+    .magWarp .jcarousel-control-prev:hover {
+      background: url(../images/ico_btn_large_nav.png) no-repeat 0 -115px; }
+  .magWarp .jcarousel-control-next {
+    position: absolute;
+    right: -60px;
+    top: 234px;
+    background: url(../images/ico_btn_large_nav.png) no-repeat -36px 0;
+    width: 36px;
+    height: 115px;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none; }
+    .magWarp .jcarousel-control-next:hover {
+      background: url(../images/ico_btn_large_nav.png) no-repeat -36px -115px; }
+  .magWarp .jcarousel-control {
+    display: none; }
+  .magWarp .jcarousel-wrapper {
+    position: relative; }
+  .magWarp .jcarousel {
+    width: 870px;
+    height: 388px;
+    overflow: hidden; }
+  .magWarp .jcarousel ul {
+    width: 20000em;
+    position: relative;
+    /* Optional, required in this case since it's a <ul> element */
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .magWarp .jcarousel li {
+    /* Required only for block elements like <li>'s */
+    float: left;
+    width: 870px;
+    height: 580px;
+    background: #f8f8f8; }
+    .magWarp .jcarousel li .box {
+      background: #f8f8f8;
+      border: 1px solid #e2e2e2;
+      height: 290px;
+      width: 290px;
+      position: relative;
+      text-align: center;
+      -webkit-box-sizing: border-box;
+      -moz-box-sizing: border-box;
+      box-sizing: border-box;
+      float: left; }
+      .magWarp .jcarousel li .box.boxL, .magWarp .jcarousel li .box.boxL.hightlight {
+        width: 868.8px !important;
+        -webkit-box-shadow: 0px 0px 0px #000000 !important;
+        -moz-box-shadow: 0px 0px 0px #000000 !important;
+        box-shadow: 0px 0px 0px #000000 !important;
+        height: 193px !important;
+        overflow: hidden; }
+        .magWarp .jcarousel li .box.boxL .picWrap, .magWarp .jcarousel li .box.boxL .picTpl, .magWarp .jcarousel li .box.boxL .picWrap .picTplHover, .picWrap .magWarp .jcarousel li .box.boxL .picTplHover, .magWarp .jcarousel li .box.boxL .picTplHover, .magWarp .jcarousel li .box.boxL.hightlight .picWrap, .magWarp .jcarousel li .box.boxL.hightlight .picTpl, .magWarp .jcarousel li .box.boxL.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel li .box.boxL.hightlight .picTplHover, .magWarp .jcarousel li .box.boxL.hightlight .picTplHover {
+          height: 193px !important; }
+        .magWarp .jcarousel li .box.boxL .picTpl, .magWarp .jcarousel li .box.boxL .picWrap .picTplHover, .picWrap .magWarp .jcarousel li .box.boxL .picTplHover, .magWarp .jcarousel li .box.boxL .picTplHover, .magWarp .jcarousel li .box.boxL.hightlight .picTpl, .magWarp .jcarousel li .box.boxL.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel li .box.boxL.hightlight .picTplHover, .magWarp .jcarousel li .box.boxL.hightlight .picTplHover {
+          background-position: center !important; }
+        .magWarp .jcarousel li .box.boxL .picWrap .picTpl, .magWarp .jcarousel li .box.boxL .picWrap .picTplHover, .magWarp .jcarousel li .box.boxL.hightlight .picWrap .picTpl, .magWarp .jcarousel li .box.boxL.hightlight .picWrap .picTplHover {
+          background-image: url(../images/section6/new_pic_tpl_highlight.png) !important; }
+        .magWarp .jcarousel li .box.boxL .picWrap .picTplHover, .magWarp .jcarousel li .box.boxL.hightlight .picWrap .picTplHover {
+          background-image: url(../images/section6/new_pic_tpl_highlight_hover.png) !important; }
+        .magWarp .jcarousel li .box.boxL .titleInfo, .magWarp .jcarousel li .box.boxL.hightlight .titleInfo {
+          margin: 0;
+          margin-top: -85px;
+          margin-right: 160px;
+          float: right; }
+        .magWarp .jcarousel li .box.boxL .pic, .magWarp .jcarousel li .box.boxL.hightlight .pic {
+          margin-top: 25px; }
+      .magWarp .jcarousel li .box.boxM, .magWarp .jcarousel li .box.boxM.hightlight {
+        width: 434.4px !important;
+        -webkit-box-shadow: 0px 0px 0px #000000 !important;
+        -moz-box-shadow: 0px 0px 0px #000000 !important;
+        box-shadow: 0px 0px 0px #000000 !important; }
+      .magWarp .jcarousel li .box.boxS, .magWarp .jcarousel li .box.boxS.hightlight {
+        width: 289.5px !important;
+        -webkit-box-shadow: 0px 0px 0px #000000 !important;
+        -moz-box-shadow: 0px 0px 0px #000000 !important;
+        box-shadow: 0px 0px 0px #000000 !important; }
+    .magWarp .jcarousel li .titleInfo {
+      position: relative;
+      bottom: 25px;
+      height: 50px;
+      width: 200px;
+      z-index: 500;
+      margin: -40px auto; }
+    .magWarp .jcarousel li .title {
+      color: #F47820;
+      font-size: 15px;
+      text-align: center;
+      top: 212px;
+      margin-bottom: 8px; }
+    .magWarp .jcarousel li .name {
+      color: #58595b;
+      font-size: 13px;
+      text-align: center;
+      font-weight: bold;
+      top: 244px; }
+  .magWarp .popBox, .magWarp .concilInfo {
+    position: absolute;
+    top: 0;
+    left: 0;
+    top: 0;
+    left: 0;
+    background: #575b63;
+    width: 100%;
+    height: 100%;
+    display: none;
+    color: white;
+    z-index: 500; }
+    .magWarp .popBox .picWrap, .magWarp .concilInfo .picWrap {
+      width: 288px; }
+  .magWarp .closeBtn {
+    background: url(../images/ico_close_btn.png) 0 0 no-repeat;
+    background-repeat: no-repeat;
+    width: 56px;
+    height: 56px;
+    right: 10%;
+    top: 10%;
+    position: fixed;
+    -webkit-transition: none;
+    -moz-transition: none;
+    -ms-transition: none;
+    -o-transition: none;
+    transition: none;
+    position: absolute;
+    right: 15px !important;
+    top: 15px !important; }
+    .magWarp .closeBtn:hover {
+      background: url(../images/ico_close_btn.png) -56px 0 no-repeat; }
+
+.picWrap {
+  height: 288px;
+  width: 100%;
+  position: relative;
+  background: #FFF;
+  text-align: center; }
+  .picWrap .pic {
+    margin-top: 50px;
+    min-width: 115px; }
+  .picWrap .picTpl, .picWrap .picTplHover, .picWrap .picTplHover {
+    background: no-repeat center -137px; }
+  .picWrap .picTpl, .picWrap .picTplHover {
+    position: absolute;
+    top: 0;
+    right: 0;
+    background-image: url(../images/section6/new_pic_tpl.png);
+    width: 100%;
+    height: 288px;
+    z-index: 100; }
+  .picWrap .picTplHover {
+    background-image: url(../images/section6/new_pic_tpl_hover.png);
+    z-index: 500;
+    display: none; }
+
+.hightlight {
+  -webkit-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.25);
+  -moz-box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.25);
+  box-shadow: 2px 2px 16px rgba(0, 0, 0, 0.25);
+  position: relative;
+  z-index: 300; }
+  .hightlight .picWrap .pic {
+    margin-top: 24px;
+    min-width: 140px; }
+
+.box.hightlight .picTpl, .box.hightlight .picWrap .picTplHover, .picWrap .box.hightlight .picTplHover {
+  background: url(../images/section6/pic_tpl_hightlight.png) no-repeat; }
+
+.box.hightlight .picTplHover {
+  background: url(../images/section6/pic_tpl_hightlight_hover.png) no-repeat !important; }
+
+.popBox .picWrap, .concilInfo .picWrap {
+  position: absolute;
+  z-index: -1; }
+  .popBox .picWrap .pic, .concilInfo .picWrap .pic {
+    max-width: 140px; }
+.popBox .picTpl, .concilInfo .picTpl, .popBox .picWrap .picTplHover, .picWrap .popBox .picTplHover, .concilInfo .picWrap .picTplHover, .picWrap .concilInfo .picTplHover {
+  background: url(../images/section6/pic_tpl_grey.png) no-repeat; }
+.popBox.hightlight .picWrap.grey .picTpl, .hightlight.concilInfo .picWrap.grey .picTpl, .popBox.hightlight .picWrap.grey .picTplHover, .hightlight.concilInfo .picWrap.grey .picTplHover {
+  background: url(../images/section6/pic_tpl_hightlight_grey.png) no-repeat; }
+.popBox .info, .concilInfo .info {
+  width: 580px;
+  position: absolute;
+  right: 0;
+  top: 0;
+  height: 100%;
+  margin: 55px 20px 0;
+  font-size: 14px; }
+  .popBox .info .name, .concilInfo .info .name {
+    font-weight: bold;
+    font-size: 22px;
+    margin-bottom: 0; }
+  .popBox .info .title, .concilInfo .info .title {
+    color: #F47820;
+    font-size: 18px;
+    display: block;
+    font-weight: bold; }
+  .popBox .info .intro, .concilInfo .info .intro {
+    margin-top: 20px;
+    height: 420px;
+    line-height: 20px; }
+    .popBox .info .intro ul, .concilInfo .info .intro ul {
+      margin: initial;
+      padding: initial;
+      margin-left: 20px; }
+      .popBox .info .intro ul li, .concilInfo .info .intro ul li {
+        list-style-type: disc;
+        display: list-item; }
+    .popBox .info .intro ol, .concilInfo .info .intro ol {
+      margin: initial;
+      padding: initial;
+      margin-left: 20px; }
+      .popBox .info .intro ol li, .concilInfo .info .intro ol li {
+        list-style-type: decimal;
+        display: list-item; }
+    .popBox .info .intro p, .concilInfo .info .intro p {
+      margin-bottom: 1em; }
+
+.btnDownload {
+  width: 70px;
+  height: 68px;
+  display: inline-block;
+  background: url(../images/en/btn_download.png) no-repeat;
+  top: 240px;
+  left: 108px;
+  position: absolute; }
+
+.tc .btnDownload {
+  background: url(../images/tc/btn_download.png) no-repeat;
+  width: 68px;
+  height: 54px; }
+
+.sc .btnDownload {
+  background: url(../images/sc/btn_download.png) no-repeat;
+  width: 68px;
+  height: 54px; }
+
+.magWarp .jcarousel .box8b .box, .magWarp .jcarousel .box8b .box.hightlight {
+  width: 217.2px;
+  height: 193px !important;
+  overflow: hidden; }
+  .magWarp .jcarousel .box8b .box .picWrap, .magWarp .jcarousel .box8b .box .picTpl, .magWarp .jcarousel .box8b .box .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box8b .box .picTplHover, .magWarp .jcarousel .box8b .box .picTplHover, .magWarp .jcarousel .box8b .box.hightlight .picWrap, .magWarp .jcarousel .box8b .box.hightlight .picTpl, .magWarp .jcarousel .box8b .box.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box8b .box.hightlight .picTplHover, .magWarp .jcarousel .box8b .box.hightlight .picTplHover {
+    height: 193px !important; }
+  .magWarp .jcarousel .box8b .box .picTpl, .magWarp .jcarousel .box8b .box .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box8b .box .picTplHover, .magWarp .jcarousel .box8b .box .picTplHover, .magWarp .jcarousel .box8b .box.hightlight .picTpl, .magWarp .jcarousel .box8b .box.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box8b .box.hightlight .picTplHover, .magWarp .jcarousel .box8b .box.hightlight .picTplHover {
+    background-position: center -175px !important; }
+  .magWarp .jcarousel .box8b .box .pic, .magWarp .jcarousel .box8b .box.hightlight .pic {
+    margin-top: 17px; }
+  .magWarp .jcarousel .box8b .box .titleInfo, .magWarp .jcarousel .box8b .box.hightlight .titleInfo {
+    margin-top: -31px; }
+
+.magWarp .jcarousel .box8 .box, .magWarp .jcarousel .box8 .box.hightlight {
+  width: 217px; }
+  .magWarp .jcarousel .box8 .box .picWrap .pic, .magWarp .jcarousel .box8 .box.hightlight .picWrap .pic {
+    max-width: 112px; }
+  .magWarp .jcarousel .box8 .box .picWrap .picTpl, .magWarp .jcarousel .box8 .box .picWrap .picTplHover, .magWarp .jcarousel .box8 .box.hightlight .picWrap .picTpl, .magWarp .jcarousel .box8 .box.hightlight .picWrap .picTplHover {
+    background-image: url(./images/section6/new_pic_tpl.png); }
+  .magWarp .jcarousel .box8 .box .picWrap .picTplHover, .magWarp .jcarousel .box8 .box.hightlight .picWrap .picTplHover {
+    background-image: url(./images/section6/new_pic_tpl_hover.png) !important; }
+  .magWarp .jcarousel .box8 .box .titleInfo, .magWarp .jcarousel .box8 .box.hightlight .titleInfo {
+    margin-top: -75px; }
+    .magWarp .jcarousel .box8 .box .titleInfo .title, .magWarp .jcarousel .box8 .box.hightlight .titleInfo .title {
+      margin-bottom: 3px; }
+
+.magWarp .jcarousel .box7b .box, .magWarp .jcarousel .box7b .box.hightlight {
+  width: 217.2px;
+  height: 193px !important;
+  overflow: hidden; }
+  .magWarp .jcarousel .box7b .box .picWrap, .magWarp .jcarousel .box7b .box .picTpl, .magWarp .jcarousel .box7b .box .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box7b .box .picTplHover, .magWarp .jcarousel .box7b .box .picTplHover, .magWarp .jcarousel .box7b .box.hightlight .picWrap, .magWarp .jcarousel .box7b .box.hightlight .picTpl, .magWarp .jcarousel .box7b .box.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box7b .box.hightlight .picTplHover, .magWarp .jcarousel .box7b .box.hightlight .picTplHover {
+    height: 193px !important; }
+  .magWarp .jcarousel .box7b .box .picWrap .pic, .magWarp .jcarousel .box7b .box.hightlight .picWrap .pic {
+    max-width: 112px; }
+  .magWarp .jcarousel .box7b .box .picWrap .picTpl, .magWarp .jcarousel .box7b .box .picWrap .picTplHover, .magWarp .jcarousel .box7b .box.hightlight .picWrap .picTpl, .magWarp .jcarousel .box7b .box.hightlight .picWrap .picTplHover {
+    background-image: url(../images/section6/new_pic_tpl.png); }
+  .magWarp .jcarousel .box7b .box .picWrap .picTplHover, .magWarp .jcarousel .box7b .box.hightlight .picWrap .picTplHover {
+    background-image: url(../images/section6/new_pic_tpl_hover.png) !important; }
+  .magWarp .jcarousel .box7b .box .picTpl, .magWarp .jcarousel .box7b .box .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box7b .box .picTplHover, .magWarp .jcarousel .box7b .box .picTplHover, .magWarp .jcarousel .box7b .box.hightlight .picTpl, .magWarp .jcarousel .box7b .box.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box7b .box.hightlight .picTplHover, .magWarp .jcarousel .box7b .box.hightlight .picTplHover {
+    background-position: center -180px !important; }
+  .magWarp .jcarousel .box7b .box .pic, .magWarp .jcarousel .box7b .box.hightlight .pic {
+    margin-top: 12px; }
+  .magWarp .jcarousel .box7b .box .titleInfo, .magWarp .jcarousel .box7b .box.hightlight .titleInfo {
+    margin-top: -35px; }
+    .magWarp .jcarousel .box7b .box .titleInfo .title, .magWarp .jcarousel .box7b .box.hightlight .titleInfo .title {
+      margin-bottom: 3px; }
+
+.magWarp .jcarousel .box7 .boxSm {
+  width: 217px; }
+  .magWarp .jcarousel .box7 .boxSm .picWrap .pic {
+    max-width: 112px; }
+  .magWarp .jcarousel .box7 .boxSm .picWrap .picTpl, .magWarp .jcarousel .box7 .boxSm .picWrap .picTplHover {
+    background: url(../images/section6/pic_tpl_218.png) no-repeat; }
+  .magWarp .jcarousel .box7 .boxSm .picWrap .picTplHover {
+    background: url(../images/section6/pic_tpl_218_hover.png) no-repeat !important; }
+  .magWarp .jcarousel .box7 .boxSm .titleInfo {
+    margin-top: -65px; }
+
+.magWarp .jcarousel .box6b .box, .magWarp .jcarousel .box6b .box.hightlight {
+  width: 217.2px;
+  height: 193px !important;
+  overflow: hidden; }
+  .magWarp .jcarousel .box6b .box .picWrap, .magWarp .jcarousel .box6b .box .picTpl, .magWarp .jcarousel .box6b .box .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box6b .box .picTplHover, .magWarp .jcarousel .box6b .box .picTplHover, .magWarp .jcarousel .box6b .box.hightlight .picWrap, .magWarp .jcarousel .box6b .box.hightlight .picTpl, .magWarp .jcarousel .box6b .box.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box6b .box.hightlight .picTplHover, .magWarp .jcarousel .box6b .box.hightlight .picTplHover {
+    height: 193px !important; }
+  .magWarp .jcarousel .box6b .box .picTpl, .magWarp .jcarousel .box6b .box .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box6b .box .picTplHover, .magWarp .jcarousel .box6b .box .picTplHover, .magWarp .jcarousel .box6b .box.hightlight .picTpl, .magWarp .jcarousel .box6b .box.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box6b .box.hightlight .picTplHover, .magWarp .jcarousel .box6b .box.hightlight .picTplHover {
+    background-position: center -175px !important; }
+  .magWarp .jcarousel .box6b .box .pic, .magWarp .jcarousel .box6b .box.hightlight .pic {
+    margin-top: 17px; }
+  .magWarp .jcarousel .box6b .box .titleInfo, .magWarp .jcarousel .box6b .box.hightlight .titleInfo {
+    margin-top: -31px; }
+
+.magWarp .jcarousel .box6c .box, .magWarp .jcarousel .box6c .box.hightlight {
+  width: 217.2px;
+  height: 193px !important;
+  overflow: hidden; }
+  .magWarp .jcarousel .box6c .box .picWrap, .magWarp .jcarousel .box6c .box .picTpl, .magWarp .jcarousel .box6c .box .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box6c .box .picTplHover, .magWarp .jcarousel .box6c .box .picTplHover, .magWarp .jcarousel .box6c .box.hightlight .picWrap, .magWarp .jcarousel .box6c .box.hightlight .picTpl, .magWarp .jcarousel .box6c .box.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box6c .box.hightlight .picTplHover, .magWarp .jcarousel .box6c .box.hightlight .picTplHover {
+    height: 193px !important; }
+  .magWarp .jcarousel .box6c .box .picWrap .pic, .magWarp .jcarousel .box6c .box.hightlight .picWrap .pic {
+    max-width: 112px; }
+  .magWarp .jcarousel .box6c .box .picWrap .picTpl, .magWarp .jcarousel .box6c .box .picWrap .picTplHover, .magWarp .jcarousel .box6c .box.hightlight .picWrap .picTpl, .magWarp .jcarousel .box6c .box.hightlight .picWrap .picTplHover {
+    background-image: url(../images/section6/new_pic_tpl.png); }
+  .magWarp .jcarousel .box6c .box .picWrap .picTplHover, .magWarp .jcarousel .box6c .box.hightlight .picWrap .picTplHover {
+    background-image: url(../images/section6/new_pic_tpl_hover.png) !important; }
+  .magWarp .jcarousel .box6c .box .picTpl, .magWarp .jcarousel .box6c .box .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box6c .box .picTplHover, .magWarp .jcarousel .box6c .box .picTplHover, .magWarp .jcarousel .box6c .box.hightlight .picTpl, .magWarp .jcarousel .box6c .box.hightlight .picWrap .picTplHover, .picWrap .magWarp .jcarousel .box6c .box.hightlight .picTplHover, .magWarp .jcarousel .box6c .box.hightlight .picTplHover {
+    background-position: center -180px !important; }
+  .magWarp .jcarousel .box6c .box .pic, .magWarp .jcarousel .box6c .box.hightlight .pic {
+    margin-top: 12px; }
+  .magWarp .jcarousel .box6c .box .titleInfo, .magWarp .jcarousel .box6c .box.hightlight .titleInfo {
+    margin-top: -35px; }
+    .magWarp .jcarousel .box6c .box .titleInfo .title, .magWarp .jcarousel .box6c .box.hightlight .titleInfo .title {
+      margin-bottom: 3px; }
+
+/* BLK 4 concil */
+.concilInfo {
+  width: 860px;
+  height: 560px; }
+  .concilInfo .fancybox-inner {
+    overflow: hidden !important; }
+  .concilInfo .iconPic {
+    position: absolute;
+    display: inline-block;
+    margin: 44px;
+    margin-top: 50px;
+    width: 160px; }
+  .concilInfo .btnDownload {
+    top: 260px;
+    left: 88px; }
+  .concilInfo .info .intro {
+    height: 450px; }
+
+/* BLK7 cop structure */
+/* BLK8 global network */
+.BLK7 .contentInner {
+  width: 1000px;
+  height: 550px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -500px;
+  margin-top: -275px; }
+
+.corpCir {
+  width: 1000px;
+  text-align: center;
+  margin: 20px auto;
+  display: block; }
+  .corpCir li {
+    display: inline-block;
+    margin: 0 10px 10px 0;
+    width: 170px;
+    height: 170px;
+    background: url(../images/bg-circle-170.png) no-repeat;
+    vertical-align: top;
+    -webkit-transition: all 0.5s ease;
+    -moz-transition: all 0.5s ease;
+    -ms-transition: all 0.5s ease;
+    -o-transition: all 0.5s ease;
+    transition: all 0.5s ease;
+    position: relative; }
+    .corpCir li.squareBtn {
+      width: 243px;
+      height: 59px;
+      background: url(../images/btn-square.png) no-repeat;
+      display: block;
+      text-align: center;
+      margin: 15px auto 0; }
+      .corpCir li.squareBtn .frame {
+        background: url(../images/btn-square-hover.png) no-repeat; }
+      .corpCir li.squareBtn a {
+        width: 243px;
+        height: 59px; }
+        .corpCir li.squareBtn a img {
+          max-width: none; }
+    .corpCir li .frame {
+      width: 100%;
+      height: 100%;
+      position: absolute;
+      z-index: -1;
+      background: url(../images/bg-circle-170-hover.png) no-repeat;
+      top: 0;
+      left: 0;
+      z-index: 1;
+      display: none; }
+    .corpCir li a {
+      width: 170px;
+      height: 170px;
+      vertical-align: middle;
+      text-align: center;
+      display: table-cell;
+      position: relative;
+      z-index: 10; }
+      .corpCir li a img {
+        max-width: 130px; }
+
+/* BLK9 corpPublic */
+.BLK9 .contentInner {
+  width: 800px;
+  height: 380px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -400px;
+  margin-top: -190px;
+  text-align: center; }
+.BLK9 .compSubscribe {
+  width: 311px !important;
+  text-align: center;
+  margin: 0 auto;
+  font-size: 16px; }
+  .BLK9 .compSubscribe a {
+    color: #ffffff;
+    text-decoration: none; }
+  .BLK9 .compSubscribe .btnSubs {
+    display: inline-block;
+    width: 311px;
+    height: 52px;
+    background: url(../images/btn_means_business.jpg) no-repeat 0 0;
+    text-align: center;
+    vertical-align: middle;
+    color: #fff;
+    font-size: 18px;
+    font-weight: bold;
+    white-space: nowrap;
+    padding-top: 31px;
+    margin-top: 95px;
+    line-height: 1.3em;
+    -webkit-transition: all 0s ease !important;
+    -moz-transition: all 0s ease !important;
+    -o-transition: all 0s ease !important;
+    transition: all 0s ease !important; }
+    .BLK9 .compSubscribe .btnSubs:hover {
+      background-position: 0 -83px; }
+  .BLK9 .compSubscribe p {
+    margin-top: 10px; }
+
+.en .BLK9 .compSubscribe .btnSubs {
+  height: 53px;
+  padding-top: 30px; }
+
+.corpPublic {
+  /*     display: block;
+      margin: 150px auto 0;
+      width: 900px;
+      text-align: center; */ }
+  .corpPublic .title {
+    margin-bottom: 25px; }
+
+.circleMd {
+  cursor: pointer;
+  background: url(../images/bg-circle-197.png) no-repeat 0 0;
+  width: 197px;
+  height: 197px;
+  display: inline-block;
+  -webkit-transition: background 0.5s ease;
+  -moz-transition: background 0.5s ease;
+  -ms-transition: background 0.5s ease;
+  -o-transition: background 0.5s ease;
+  transition: background 0.5s ease;
+  vertical-align: bottom;
+  position: relative; }
+  .circleMd .frame {
+    width: 100%;
+    height: 100%;
+    position: absolute;
+    background: url(../images/bg-circle-197-hover.png) no-repeat 0 0;
+    top: 0;
+    left: 0;
+    z-index: 1;
+    display: none; }
+  .circleMd .tableCell {
+    display: table-cell;
+    width: 197px;
+    height: 197px;
+    text-align: center;
+    vertical-align: middle;
+    position: relative;
+    z-index: 10; }
+
+.cirTimeline {
+  position: relative; }
+  .cirTimeline .selectYear {
+    display: none;
+    background: url("../images/en/section9/icon_select_year.png") no-repeat;
+    position: absolute;
+    left: 50%;
+    margin-left: -40px;
+    bottom: 25px;
+    width: 79px;
+    height: 32px;
+    z-index: 10; }
+  .cirTimeline .timeline {
+    visibility: hidden;
+    -webkit-transition: opacity 0.5s ease;
+    -moz-transition: opacity 0.5s ease;
+    -ms-transition: opacity 0.5s ease;
+    -o-transition: opacity 0.5s ease;
+    transition: opacity 0.5s ease;
+    opacity: 0;
+    background: url("../images/section9/bg-timeline.png") no-repeat;
+    position: absolute;
+    bottom: -80px;
+    width: 633px;
+    height: 44px;
+    left: -212px; }
+    .cirTimeline .timeline.show {
+      visibility: visible;
+      opacity: 1; }
+    .cirTimeline .timeline .jcarousel-wrapper {
+      position: absolute;
+      left: 60px;
+      top: 10px;
+      font-size: 14px;
+      font-weight: bold; }
+    .cirTimeline .timeline .jcarousel {
+      position: relative;
+      overflow: hidden;
+      width: 520px; }
+      .cirTimeline .timeline .jcarousel ul {
+        width: 20000em;
+        position: relative;
+        /* Optional, required in this case since it's a       <ul> element */
+        list-style: none;
+        margin: 0;
+        padding: 0; }
+        .cirTimeline .timeline .jcarousel ul li {
+          float: left;
+          width: 150px;
+          height: 16px;
+          box-sizing: border-box;
+          -moz-box-sizing: border-box;
+          border-right: 1px solid #bebebe;
+          text-align: center;
+          /* for images slider
+          img{
+            width: $liWidth;
+            height: auto;
+          }
+          */ }
+    .cirTimeline .timeline .navLeft {
+      background: url("../images/arrow-small.png") no-repeat 0 0;
+      width: 12px;
+      height: 13px;
+      position: absolute;
+      top: 11px;
+      left: 20px; }
+    .cirTimeline .timeline .navRight {
+      background: url("../images/arrow-small.png") no-repeat -12px 0;
+      width: 12px;
+      height: 13px;
+      position: absolute;
+      right: 15px;
+      top: 11px; }
+
+.tc .cirTimeline .timeline .jcarousel-wrapper, .sc .cirTimeline .timeline .jcarousel-wrapper {
+  top: 8px; }
+
+.tc .cirTimeline .selectYear {
+  background: url("../images/tc/section9/icon_select_year.png") no-repeat;
+  margin-left: -28px; }
+
+.sc .cirTimeline .selectYear {
+  background: url("../images/sc/section9/icon_select_year.png") no-repeat;
+  margin-left: -28px; }
+
+/* global network Pop */
+.mapPopInfo {
+  width: 100%;
+  height: 100%;
+  position: fixed;
+  background: url(../images/bg-pixed-black-trans.png) repeat;
+  top: 0;
+  left: 0;
+  z-index: 1000;
+  display: none; }
+  .mapPopInfo .content {
+    color: white;
+    width: 800px;
+    height: 400px;
+    margin: 17% auto 0;
+    position: relative; }
+    .mapPopInfo .content h4 {
+      text-align: center;
+      margin-bottom: 0.5em;
+      font-size: 42px; }
+    .mapPopInfo .content a {
+      color: white;
+      text-decoration: underline; }
+      .mapPopInfo .content a:hover {
+        color: #f47820;
+        text-decoration: underline; }
+    .mapPopInfo .content .childMap {
+      width: 400px;
+      height: 280px;
+      display: inline-block; }
+    .mapPopInfo .content .locationInfo {
+      display: inline-block;
+      width: 350px;
+      height: 100%;
+      top: 0;
+      vertical-align: top;
+      padding-left: 40px;
+      font-size: 15px; }
+      .mapPopInfo .content .locationInfo .leader {
+        font-size: 26px; }
+        .mapPopInfo .content .locationInfo .leader .main {
+          display: inline-block;
+          vertical-align: top; }
+        .mapPopInfo .content .locationInfo .leader .title {
+          display: block;
+          color: #e06815;
+          font-size: 0.6em;
+          font-weight: bold; }
+      .mapPopInfo .content .locationInfo table {
+        color: white; }
+      .mapPopInfo .content .locationInfo .data_content {
+        padding-left: 10px; }
+
+.mapPopClose, .closeBtn {
+  background: url(../images/ico_close_btn.png) 0 0 no-repeat;
+  background-repeat: no-repeat;
+  width: 56px;
+  height: 56px;
+  right: 10%;
+  top: 10%;
+  position: fixed;
+  -webkit-transition: none;
+  -moz-transition: none;
+  -ms-transition: none;
+  -o-transition: none;
+  transition: none; }
+  .mapPopClose:hover, .closeBtn:hover {
+    background: url(../images/ico_close_btn.png) -56px 0 no-repeat; }
+
+/* BLK10 career */
+.career {
+  width: 960px;
+  height: 460px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  margin-left: -480px;
+  margin-top: -230px; }
+  .career .titleTag {
+    text-align: left;
+    margin-left: 15px; }
+  .career .wrap {
+    height: 300px;
+    margin-top: 35px; }
+    .career .wrap .grid {
+      display: inline-block;
+      vertical-align: top;
+      width: 280px;
+      height: 100%;
+      text-align: left;
+      position: relative;
+      padding-left: 18px; }
+      .career .wrap .grid.borderRight {
+        margin-right: 25px; }
+      .career .wrap .grid .btm {
+        position: absolute;
+        bottom: 0;
+        left: 0;
+        font-size: 18px;
+        font-weight: bold;
+        padding-left: 15px; }
+      .career .wrap .grid:last-child {
+        margin-right: 0; }
+
+/* BLK 11 contact us*/
+.BLK11 {
+  background: #383a3a;
+  height: 600px !important; }
+  .BLK11 .contact {
+    height: 400px;
+    width: 100%;
+    position: absolute;
+    bottom: 200px;
+    -webkit-box-shadow: 0px 17px 40px rgba(0, 0, 0, 0.7);
+    -moz-box-shadow: 0px 17px 40px rgba(0, 0, 0, 0.7);
+    box-shadow: 0px 17px 40px rgba(0, 0, 0, 0.7);
+    background: url(../images/footer-pattern-3.png) repeat;
+    z-index: 10; }
+    .BLK11 .contact .logoShow {
+      padding: 10px 0; }
+      .BLK11 .contact .logoShow img {
+        margin-right: 20px; }
+    .BLK11 .contact .social {
+      font-family: Helvetica,sans-serif; }
+    .BLK11 .contact .opening {
+      border-left: 3px solid #F47820;
+      padding: 4px 10px; }
+    .BLK11 .contact .wrap {
+      width: 960px;
+      margin: 0 auto;
+      font-size: 15px;
+      margin-top: 65px;
+      line-height: 24px; }
+      .BLK11 .contact .wrap .col2 {
+        width: 570px;
+        display: inline-block;
+        height: 100%;
+        float: left;
+        border-right: 1px solid #b7b7b7; }
+        .BLK11 .contact .wrap .col2 h5 {
+          padding-left: 10px; }
+      .BLK11 .contact .wrap .col {
+        width: 340px;
+        display: inline-block;
+        height: 100%;
+        padding-left: 40px;
+        margin-top: 0; }
+      .BLK11 .contact .wrap h5 {
+        margin: 10px 0 10px; }
+      .BLK11 .contact .wrap th, .BLK11 .contact .wrap .th {
+        color: #f47820;
+        padding: 5px; }
+      .BLK11 .contact .wrap td {
+        vertical-align: top;
+        padding: 5px; }
+  .BLK11 .footer {
+    position: absolute;
+    bottom: 0;
+    height: 200px;
+    width: 100%;
+    background: url(../images/footer-pattern-2.png) repeat; }
+    .BLK11 .footer .wrap {
+      width: 960px;
+      height: 100%;
+      margin: 0 auto;
+      padding-top: 12px;
+      /* set the size of the definition list &lt;dl&gt; and add the background image */
+      /* style the &lt;dd&gt;&lt;a&gt; links physical size and the background image for the hover */ }
+      .BLK11 .footer .wrap a {
+        color: white; }
+        .BLK11 .footer .wrap a:hover {
+          color: #F47820; }
+      .BLK11 .footer .wrap .tbFooter {
+        color: #fff;
+        margin-top: 42px; }
+        .BLK11 .footer .wrap .tbFooter a {
+          display: inline-block;
+          margin: 0 5px; }
+      .BLK11 .footer .wrap .dot_line {
+        border-bottom: none; }
+      .BLK11 .footer .wrap #imapfooter {
+        display: block;
+        width: 688px;
+        height: 15px;
+        background: url(../images/footer.png) no-repeat top left;
+        position: relative; }
+      .BLK11 .footer .wrap #imapfooter dd {
+        position: absolute;
+        padding: 0;
+        margin: 0; }
+      .BLK11 .footer .wrap #imapfooter a#pic1 {
+        left: 5px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic2 {
+        left: 74px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic3 {
+        left: 138px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic4 {
+        left: 204px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic5 {
+        left: 274px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic6 {
+        left: 343px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic7 {
+        left: 402px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic8 {
+        left: 464px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic9 {
+        left: 526px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic10 {
+        left: 580px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a#pic11 {
+        left: 635px;
+        top: 0px;
+        z-index: 20; }
+      .BLK11 .footer .wrap #imapfooter a.lang {
+        display: block;
+        width: 55px;
+        height: 15px;
+        text-decoration: none;
+        z-index: 20;
+        position: absolute; }
+  .BLK11 #imapfooter > a:hover {
+    opacity: 0;
+    filter: alpha(opacity=0); }
+  .BLK11 .link {
+    margin-top: 13px; }
+    .BLK11 .link > a {
+      background: url(../images/ico_arrow_orange.png) no-repeat left center;
+      padding-left: 30px;
+      display: block;
+      color: #878787;
+      margin-top: 10px;
+      color: #58595B; }
+      .BLK11 .link > a:hover {
+        color: #F47820; }
+
+.social li {
+  width: 36px;
+  height: 36px;
+  float: left;
+  display: block;
+  margin-right: 5px;
+  margin-bottom: 5px; }
+  .social li a {
+    width: 36px;
+    height: 36px;
+    display: block; }
+    .social li a.youtube {
+      background: url("../images/icon_social.png") no-repeat 0 0; }
+    .social li a.facebook {
+      background: url("../images/icon_social.png") no-repeat -41px 0; }
+    .social li a.googlePlus {
+      background: url("../images/icon_social.png") no-repeat -82px 0; }
+    .social li a.linkedIn {
+      background: url("../images/icon_social.png") no-repeat -123px 0; }
+    .social li a.toDou {
+      background: url("../images/icon_social.png") no-repeat -163px 0; }
+    .social li a.weiBo {
+      background: url("../images/icon_social.png") no-repeat -204px 0; }
+    .social li a.twitter {
+      background: url("../images/icon_social.png") no-repeat -245px 0; }
+    .social li a.weixin {
+      background: url("../images/icon_social.png") no-repeat -286px 0; }
+
+.weixin {
+  position: relative; }
+  .weixin .weixinHolder {
+    display: none;
+    position: absolute;
+    width: 100px;
+    height: 122px;
+    left: -36px;
+    bottom: 50px;
+    border: 1px solid #6D6D6D; }
+    .weixin .weixinHolder .code {
+      width: 100%; }
+    .weixin .weixinHolder .arrowArea {
+      width: 100%;
+      height: 28px;
+      background: url("../images/code-arrow.png") no-repeat 0 0;
+      color: #FFF;
+      text-align: center;
+      line-height: 24px;
+      font-size: 12px; }
+
+/* footer */
+/* sections background */
+.subList {
+  width: 410px;
+  padding-top: 15px; }
+  .subList .btn-video a {
+    display: inline-block;
+    background: url(../images/icon-video2.png) no-repeat left center;
+    padding-left: 29px;
+    margin-bottom: 5px;
+    color: #8d8972; }
+  .subList .btn-ebook a {
+    display: inline-block;
+    background: url(../images/icon-ebook.png) no-repeat left center;
+    padding-left: 29px;
+    color: #58595b; }
+

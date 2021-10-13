@@ -1,0 +1,251 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#overview-h2,
+#overview-h3,
+#overview-p,
+.note,
+.overview-h3,
+.overview-p {
+    font-size: 16px;
+    line-height: 19.2px
+}
+.note {
+    color: #666;
+    text-transform: none;
+    font-weight: 300
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.footer-list {
+    padding-right: 0;
+    padding-top: 20px;
+    width: 20%
+}
+
+@media only screen and (min-device-width: 642px) {
+    .loggg {
+        width: 152px
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) {
+   
+    .loggg {
+        width: 140px
+    }
+}
+
+/* Animation */
+.control-box, a.carousel-control, .carousel-indicators li {
+  -webkit-transition: all 250ms ease;
+  -moz-transition: all 250ms ease;
+  -ms-transition: all 250ms ease;
+  -o-transition: all 250ms ease;
+  transition: all 250ms ease;   
+  /* hardware acceleration causes Bootstrap carousel controlbox margin error in webkit */
+  /* Assigning animation to indicator li will make slides flicker */
+  } 
+
+
+/* Hover animation */
+.carousel:hover .control-box { opacity: 1; }
+.carousel:hover a.carousel-control.left { left: 15px; }
+.carousel:hover a.carousel-control.right { right: 15px; }  
+
+
+/* Carouse Indicator */
+.carousel-indicators li.active,
+.carousel-indicators li { border: 0; }
+
+.carousel-indicators li {
+  background: #ddd;
+  margin: 0 3px;
+  width: 12px;
+  height: 12px;
+  }
+
+.carousel-indicators li.active {
+  background: #255E98 !important;
+  margin: 0 3px;
+  }
+
+.left,
+.quote-cmp,
+.tweet {
+    float: left
+}
+
+.trade-title h2 {
+    color: #666;
+    font-size: 30px;
+    margin: 0;
+    padding-top: 40px;
+    text-align: center;
+}
+
+.expo-name,.trade-title1,.trade-title2,.trade-title3,.trade-title5,.trade-title6 {
+    display: inline-block
+}
+
+
+.trade-title1 {
+    /*float:left;padding:0;max-width:300px*/
+}
+
+.trade-title1-a {
+    color: #333;
+    font-size: 24px;
+    padding: 0
+}
+
+.trade-title1 a:hover {
+    color: #ff7519!important;
+    overflow: hidden
+}
+
+.trade-comand {
+    background-color: #67909d;
+    background-color: #67909d;
+    padding: 10px;
+    color: white;
+}
+
+
+.trade-span {
+    border-left: 1px solid #999;
+    padding: 0 12px
+}
+
+p.trade-des {
+    padding: 0 0 10px;
+    line-height: 20px;
+    text-align: justify;
+    overflow: hidden
+}
+
+.ttup, .ttdown {
+    border-bottom: 1px solid #dddddd;
+    padding-top: 60px;
+}
+
+.item {
+    padding: 0!important;
+    margin: 0!important
+}
+.footer-media>a {
+    float: left
+}
+.serch-inpt {
+    border: 2px solid #19446F;
+    border-radius: 0!important
+}
+
+#content,#home_b,#item_sha,.item_sha {
+    background-color: #fff
+}
+
+#topbar_sha,.topbar_sha {
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
+    /*padding-bottom:20px;*/
+}
+
+#item_sha {
+}
+
+.item_sha {
+    padding-top: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    z-index: 1
+}
+
+.sub-split {
+    border-top: 1px solid #ddd;
+    list-style: none;
+    padding-top: 5px;
+    line-height: 22px;
+    color: #333;
+    font-weight: 700;
+    white-space: nowrap
+}
+
+
+.carousel-inner .left {
+    z-index: 3;
+}
+
+a:hover {
+    color: #3175af;
+}
+.form-control {
+    height: 35px
+}
+i.fa-angle-right {
+    font-size: 30px;
+    /*width: 100%*/
+}
+
+.padding_0 {
+    padding: 0
+}
+.container{font-family:verdana;}
+
+.category-bdt{
+  height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+  font-size: 18px;
+  color: #333;
+    /*height: 30px;*/
+}
+.category-bdt > a:hover{
+    color: #FF6A00;
+}
+
+.show-ct-list{
+  position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+
+.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+.category-bdt:hover {
+    border: 1px solid #ddd !important;
+    border-bottom: 1px solid transparent !important;
+}
+.next,.prev {
+    color: #fff;
+    margin-top: -12px;
+    position: absolute;
+    top: 50%;
+    z-index: 9
+}
+.next {
+    font-size: 40px;
+    right: 5px
+}

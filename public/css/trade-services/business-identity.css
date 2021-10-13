@@ -1,0 +1,239 @@
+* {
+  box-sizing: border-box;
+}
+body {
+  margin: 0px;
+  padding: 0px;
+}
+#overview-h2,
+#overview-h3,
+#overview-p,
+.note,
+.overview-h3,
+.overview-p {
+    font-size: 16px;
+    line-height: 19.2px
+}
+.note {
+    color: #666;
+    text-transform: none;
+    font-weight: 300
+}
+.clearfix:after {
+    content: "";
+    display: table;
+    clear: both
+}
+.footer-list {
+    padding-right: 0;
+    padding-top: 20px;
+    width: 20%
+}
+
+@media only screen and (min-device-width: 642px) {
+    .loggg {
+        width: 152px
+    }
+    
+}
+
+@media only screen and (min-device-width: 768px) {
+   
+    .loggg {
+        width: 140px
+    }
+}
+.appp,.appp-contact,.cont-invited {
+    background-size: contain
+}
+.appp {
+    background-image: url(../bdtdc-images/Apply-Icn.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 45px;
+    float: right;
+}
+
+.appp-contact,.appp-vari,.cont-invited {
+    background-repeat: no-repeat;
+    width: 40px;
+    height: 45px;
+    float: right;
+}
+
+.appp-contact {
+    background-image: url(../bdtdc-images/Contact-verification.png)
+}
+
+.appp-vari {
+    background-image: url(../bdtdc-images/Verified-Suppliers-hand.png)
+}
+
+.cont-invited {
+    background-image: url(../bdtdc-images/Contacts-invited.png)
+}
+
+.bdtdc-veri,.third-part {
+    background-repeat: no-repeat;
+    width: 40px;
+    background-size: contain;
+    height: 45px;
+    float: right;
+}
+
+.bdtdc-veri {
+    background-image: url(../bdtdc-images/Get-verifie-by-third-party.png)
+}
+
+.third-part {
+    background-image: url(../bdtdc-images/Complete-application.png)
+}
+
+.party-2,.third-invite {
+    width: 40px;
+    height: 45px;
+    background-repeat: no-repeat;
+    background-size: contain;
+    float: right;
+}
+
+.third-invite {
+    background-image: url(../bdtdc-images/Three-contacts-verification.png)
+}
+
+.party-2 {
+    background-image: url(../bdtdc-images/Third-party-verification.png)
+}
+
+.enjoy-bdt {
+    background-image: url(../bdtdc-images/Enjoy-the-benefits.png);
+    background-repeat: no-repeat;
+    width: 40px;
+    background-size: contain;
+    height: 45px;
+    float: right;
+}
+.footer-media>a {
+    float: left
+}
+.serch-inpt {
+    border: 2px solid #19446F;
+    border-radius: 0!important
+}
+#item_sha {
+}
+
+.item_sha {
+    padding-top: 10px;
+    border: 1px solid rgba(0,0,0,.1);
+    z-index: 1
+}
+#topbar_sha,.topbar_sha {
+    background-color: #fff;
+    padding-top: 10px;
+    z-index: 1;
+    /*padding-bottom:20px;*/
+}
+#content,#home_b,#item_sha,.item_sha {
+    background-color: #fff
+}
+
+.form-control {
+    height: 35px
+}
+.container{font-family:verdana;}
+.header_img_fix{float: none;
+margin: 0 auto;}
+.header_cont_color{background:#F6F7FB;}
+.border{border-right:1px solid #e9eef4}
+
+.padding_0 {
+    padding: 0
+}.top-categy{
+    color: #255E98;
+    display: block;
+    font-size: 14px;
+    font-weight: 700;
+    height: 18px;
+    opacity: .7;
+    line-height: 18px;
+}
+.show-ct-list{
+    position: absolute;
+    z-index: 9999;
+    width: 300px;
+    top: 30px;
+    background: #fff;
+    left: 15px;
+    border: 1px solid #ddd;
+}
+.category-bdt{
+    height: 30px;
+    padding-left: 15px;
+}
+ 
+
+.category-bdt a{
+    font-size: 18px;
+    color: #333;
+    /*height: 30px;*/
+}
+.category-bdt > a:hover{
+    color: #FF6A00;
+}
+.padding-bottom{padding-bottom:20px;}
+.post_sec{border-bottom:1px solid #e9eef4}
+.post_sec-h3{font-size: 16px;font-weight:bold;}
+.post_sec-p{font-size: 15px;
+font-weight: normal;color:#666}
+.border{border-right:1px solid #e9eef4}
+.container{font-family:verdana;}
+.header_cont_color{background:#F5F9FE;}
+.header_img_fix{float: none;
+margin: 0 auto;}
+.section_padding{padding: 20px 30px 30px 50px;}
+.button_padding{padding:30px;}
+.last_padding{padding-bottom: 0;}
+.category-bdt:hover {
+    border: 1px solid #ddd !important;
+    border-bottom: 1px solid transparent !important;
+}
+
+.goBack {
+  border-radius: 4px;
+  background-color: #f5f5f5;
+  border: none;
+  color: #000;
+  text-align: center;
+  font-size: 14px;
+  font-weight: 700;
+  padding: 5px;
+  width: ;
+  transition: all 0.5s;
+  cursor: pointer;
+}
+
+.goBack span {
+  cursor: pointer;
+  display: inline-block;
+  position: relative;
+  transition: 0.5s;
+}
+
+.goBack span:after {
+  content: '\00bb';
+  position: absolute;
+  opacity: 0;
+  top: 0;
+  right: -20px;
+  transition: 0.5s;
+}
+
+.goBack:hover span {
+  padding-right: 25px;
+}
+
+.goBack:hover span:after {
+  opacity: 1;
+  right: 0;
+}
